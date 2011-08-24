@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>CreateNode</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>4</exceptions>
+    </counts>
+    <runTimeInMillis>17</runTimeInMillis>
+    <content><![CDATA[<br/><div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('54');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img54"/>
+	</a>
+&nbsp;
+	<span class="meta">Included page: <a href="TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateNode.SetUp">.TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateNode.SetUp</a> <a href="TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateNode.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="54"><table border="1" cellspacing="0">
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>org.training.fitnesse.node</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><h2>Create Node - Documentation and Test</h2>
+<br/><br/><b>Rule:</b><br/>If we create a new node we've to define it's factory given serial number and the allowd max number devices. In short these are required attribute.<br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="2" class="error">create node<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type getCreateNode() { }</li><li>public Type createNode() { }</li></ul></span></td>
+	</tr>
+	<tr>
+		<td class="error"><b>serial number</b><hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type serialNumber(Type1 arg1) { }</li></ul></span></td>
+		<td><b>max number of devices</b></td>
+	</tr>
+	<tr>
+		<td class="error">CXC1462<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC1462(Type1 arg1) { }</li></ul></span></td>
+		<td>50000</td>
+	</tr>
+	<tr>
+		<td class="error">CXC243<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC243(Type1 arg1) { }</li></ul></span></td>
+		<td>30000</td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>CreateNode</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

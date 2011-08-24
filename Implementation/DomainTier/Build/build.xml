@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Training Application - Domain Tier" basedir="." default="domaintier-build">
+
+	<property name="project.root" location="${basedir}" />
+	<property file="${project.root}/Build/local.build.properties" />
+	
+	<property name="view.root.path" location="../../../../../" />
+	<property name="thirdparty.root.path" location="../../../../../../GitRepositories" />
+	<property name="common.environment.path" value="${thirdparty.root.path}/ProcessPuzzleCommons" />
+	<property name="common.build.path" value="${common.environment.path}/Deployment/BuildSnippets" />
+	<property name="common.dependent.library.path" value="${common.environment.path}/Deployment" />
+	<property name="thirdparty.distribution.base.path" value="${common.environment.path}/Deployment/Distribution" />
+	
+	<property file="${thirdparty.distribution.base.path}/Commons/component.properties" prefix="Commons"/>
+	<property file="${thirdparty.distribution.base.path}/LiTest/component.properties" prefix="LiTest"/>
+	<property file="${thirdparty.distribution.base.path}/ProcessPuzzle/component.properties" prefix="ProcessPuzzle"/>
+	
+	<property file="${project.root}/Build/component.properties" />
+	<property file="${common.build.path}/common.build.properties" />
+	
+	<path id="project.auxiliary.classpath">
+		<fileset dir="${thirdparty.distribution.base.path}/${Commons.component.distribution.dir}">
+			<include name="${Commons.component.packaged.file}" />
+		</fileset>
+		
+		<fileset dir="${thirdparty.distribution.base.path}/${LiTest.component.distribution.dir}">
+			<include name="${LiTest.component.packaged.file}" />
+		</fileset>
+		
+		<fileset dir="${thirdparty.distribution.base.path}/${ProcessPuzzle.component.distribution.dir}">
+			<include name="${ProcessPuzzle.component.packaged.file}" />
+		</fileset>
+	</path>
+
+	<target name="domaintier-build">
+		<ant dir="${project.root}" antfile="${common.build.path}/${common.domaintier.build.file}">
+			<property name="cobertura.data.file" value="${project.root}/${cobertura.data.file}" />
+			<reference refid="project.auxiliary.classpath"/>
+		</ant>
+	</target>
+</project>

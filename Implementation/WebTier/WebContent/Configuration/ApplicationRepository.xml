@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<applicationRepository xmlns="http://www.processpuzzle.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.processpuzzle.com/ http://www.processpuzzle.com/Schemas/ApplicationRepository.xsd">  
+  <application name="DomainTierTestApplication"> 
+    <description>Used to test ProcessPuzzle domain tier functionality.</description>  
+    <version>1.0.0</version>  
+    <className>com.processpuzzle.application.domain.Application</className>  
+    <executionStatus>stopped</executionStatus>  
+    <installationStatus>installed</installationStatus>  
+    <configurationDescriptorPath>classpath:com/itcodex/objectpuzzle/framework/configuration/domaintier/configuration_descriptor.xml</configurationDescriptorPath> 
+  </application>  
+  <application name="AlreadyInstalledWebApplication"> 
+    <description>Test application for testing application installer.</description>  
+    <version>1.0.0</version>  
+    <className>com.processpuzzle.application.domain.AlreadyInstalledWebApplication</className>  
+    <executionStatus>stopped</executionStatus>  
+    <installationStatus>installed</installationStatus>  
+    <configurationDescriptorPath>/Configuration/configuration_descriptor.xml</configurationDescriptorPath> 
+  </application>  
+</applicationRepository>

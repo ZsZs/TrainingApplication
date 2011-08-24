@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.profile" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<uml:Profile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_Xuxj8CuFEeCyluw9e4HnYA" name="Training Profile" metamodelReference="_X24XESuFEeCyluw9e4HnYA">
+  <eAnnotations xmi:id="_X3FycCuFEeCyluw9e4HnYA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_X3FycSuFEeCyluw9e4HnYA" name="TrainingProfile" nsURI="http:///schemas/TrainingProfile/_X3CvICuFEeCyluw9e4HnYA/0" nsPrefix="TrainingProfile"/>
+  </eAnnotations>
+  <packageImport xmi:id="_X24XECuFEeCyluw9e4HnYA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_X24XESuFEeCyluw9e4HnYA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <profileApplication xmi:id="_X24-ICuFEeCyluw9e4HnYA">
+    <eAnnotations xmi:id="_X26MQCuFEeCyluw9e4HnYA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/ProfileBase.epx#_IfFYQMmBEdqBcN1R6EvWUw?ProfileBase/ProfileBase?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/ProfileBase.epx#_bFUAMdWLEdiy4IqP8whjFA?ProfileBase?"/>
+  </profileApplication>
+</uml:Profile>

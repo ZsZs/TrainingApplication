@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>SetUp</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>10</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+    <content><![CDATA[<br/><span class="meta">Error! Cannot include parent page (.TrainingApplication.AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCatalog.CreateNewCatalogs.SetUp).
+</span><br/><table border="1" cellspacing="0">
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>org.training.fitnesse.product</td>
+	</tr>
+</table>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('7');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img7"/>
+	</a>
+&nbsp;
+	<span class="meta">Included page: <a href="TrainingApplication.AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductType">.TrainingApplication.AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductType</a> <a href="TrainingApplication.AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductType?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="7"><h2>Product Type - Documentation and Tests</h2>
+<br/><br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="3" class="error"><b>create product types</b><hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type getCreateProductTypes() { }</li><li>public Type createProductTypes() { }</li></ul></span></td>
+	</tr>
+	<tr>
+		<td class="error"><b>identifier</b><hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type identifierEANCode(Type1 arg1) { }</li><li>public Type identifier(Type p1, Type p2) {}</li></ul></span></td>
+		<td><b>producer code</b></td>
+		<td><b>EAN code</b></td>
+	</tr>
+	<tr>
+		<td class="error">192 TX TX20 10<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type one92TXTX2010599751512659(Type1 arg1) { }</li><li>public Type one92TXTX2010(Type p1, Type p2) {}</li></ul></span></td>
+		<td>605562</td>
+		<td>599751512659</td>
+	</tr>
+	<tr>
+		<td class="error">192 TX TX25 10<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type one92TXTX2510599751512660(Type1 arg1) { }</li><li>public Type one92TXTX2510(Type p1, Type p2) {}</li></ul></span></td>
+		<td>605563</td>
+		<td>599751512660</td>
+	</tr>
+	<tr>
+		<td class="error">192 TX TX27 10<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type one92TXTX2710599751512661(Type1 arg1) { }</li><li>public Type one92TXTX2710(Type p1, Type p2) {}</li></ul></span></td>
+		<td>605564</td>
+		<td>599751512661</td>
+	</tr>
+	<tr>
+		<td class="error">192 TX TX30 10<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type one92TXTX3010599751512662(Type1 arg1) { }</li><li>public Type one92TXTX3010(Type p1, Type p2) {}</li></ul></span></td>
+		<td>605565</td>
+		<td>599751512662</td>
+	</tr>
+	<tr>
+		<td class="error">192 TX TX40 10<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type one92TXTX4010599751512663(Type1 arg1) { }</li><li>public Type one92TXTX4010(Type p1, Type p2) {}</li></ul></span></td>
+		<td>605566</td>
+		<td>599751512663</td>
+	</tr>
+	<tr>
+		<td class="error">265 150-700 Nm 1<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type two65150Minus700Nm1599751512664(Type1 arg1) { }</li><li>public Type two65150Minus700Nm1(Type p1, Type p2) {}</li></ul></span></td>
+		<td>616801</td>
+		<td>599751512664</td>
+	</tr>
+	<tr>
+		<td class="error">265 200-800 Nm 1<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type two65200Minus800Nm1599751512665(Type1 arg1) { }</li><li>public Type two65200Minus800Nm1(Type p1, Type p2) {}</li></ul></span></td>
+		<td>616802</td>
+		<td>599751512665</td>
+	</tr>
+	<tr>
+		<td class="error">265 300-1000 Nm 1<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type two65300Minus1000Nm1599751512666(Type1 arg1) { }</li><li>public Type two65300Minus1000Nm1(Type p1, Type p2) {}</li></ul></span></td>
+		<td>616803</td>
+		<td>599751512666</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><br/><br/>]]></content>
+    <relativePageName>SetUp</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

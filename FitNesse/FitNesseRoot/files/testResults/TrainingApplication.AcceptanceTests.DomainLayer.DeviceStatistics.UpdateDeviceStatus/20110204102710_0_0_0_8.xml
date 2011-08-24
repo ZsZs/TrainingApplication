@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>UpdateDeviceStatus</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>0</runTimeInMillis>
+    <content><![CDATA[<h2>Update Device Status</h2>
+<br/><br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="2" class="error"><b>update device status</b><hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type getUpdateDeviceStatus() { }</li><li>public Type updateDeviceStatus() { }</li></ul></span></td>
+	</tr>
+	<tr>
+		<td class="error"><b>device</b><hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type device(Type1 arg1) { }</li></ul></span></td>
+		<td><b>status</b></td>
+	</tr>
+	<tr>
+		<td class="error">CXC1462-0<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC1462Minus0(Type1 arg1) { }</li></ul></span></td>
+		<td>ok</td>
+	</tr>
+	<tr>
+		<td class="error">CXC1462-1<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC1462Minus1(Type1 arg1) { }</li></ul></span></td>
+		<td>faulty</td>
+	</tr>
+	<tr>
+		<td class="error">CXC1462-2<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC1462Minus2(Type1 arg1) { }</li></ul></span></td>
+		<td>ok</td>
+	</tr>
+	<tr>
+		<td class="error">CXC1462-3<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC1462Minus3(Type1 arg1) { }</li></ul></span></td>
+		<td>ok</td>
+	</tr>
+	<tr>
+		<td class="error">CXC243-0<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC243Minus0(Type1 arg1) { }</li></ul></span></td>
+		<td>ok</td>
+	</tr>
+	<tr>
+		<td class="error">CXC243-1<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC243Minus1(Type1 arg1) { }</li></ul></span></td>
+		<td>ok</td>
+	</tr>
+</table>
+<br/>]]></content>
+    <relativePageName>UpdateDeviceStatus</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.2/Umlnotation" xmi:id="_1PxKYSuKEeCnUJhpaDBPaQ" name="Deployment Model">
+  <eAnnotations xmi:id="_1PxKYiuKEeCnUJhpaDBPaQ" source="uml2.diagrams" references="_1PxKYyuKEeCnUJhpaDBPaQ">
+    <contents xmi:type="notation:Diagram" xmi:id="_1PxKYyuKEeCnUJhpaDBPaQ" type="Freeform" name="Deployment Model - Overview">
+      <children xmi:id="_7DmxQCuKEeCnUJhpaDBPaQ" type="Text">
+        <children xmi:id="_7DmxQSuKEeCnUJhpaDBPaQ" type="DiagramName">
+          <element xsi:nil="true"/>
+        </children>
+        <children xmi:id="_7DmxQiuKEeCnUJhpaDBPaQ" type="Description">
+          <element xsi:nil="true"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_7DmxQyuKEeCnUJhpaDBPaQ" fontColor="8388608" fontName="Comic Sans MS" fontHeight="12" bold="true" description="Deployment Model - Overview"/>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7DmxRCuKEeCnUJhpaDBPaQ" x="766" y="634"/>
+      </children>
+      <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_1PxKZCuKEeCnUJhpaDBPaQ"/>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:id="_1PxKZSuKEeCnUJhpaDBPaQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <profileApplication xmi:id="_1PxKZiuKEeCnUJhpaDBPaQ">
+    <eAnnotations xmi:id="_1PxKZyuKEeCnUJhpaDBPaQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_1PxKaCuKEeCnUJhpaDBPaQ">
+    <eAnnotations xmi:id="_1PxKaSuKEeCnUJhpaDBPaQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_IN8k8MmBEdqBcN1R6EvWUw?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_1PxKaiuKEeCnUJhpaDBPaQ">
+    <eAnnotations xmi:id="_1PxKayuKEeCnUJhpaDBPaQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Package>

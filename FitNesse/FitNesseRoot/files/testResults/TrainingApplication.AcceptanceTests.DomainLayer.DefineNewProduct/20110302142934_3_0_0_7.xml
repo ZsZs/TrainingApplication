@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>DefineNewProduct</rootPath>
+    <result>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>7</exceptions>
+    </counts>
+    <runTimeInMillis>76</runTimeInMillis>
+    <content><![CDATA[<h3>Define new product - Documentation and tests</h3>
+<br/><br/><table border="1" cellspacing="0">
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>com.itcodex.training.fitnesse.webshop</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="3">DefineNewSupplier</td>
+	</tr>
+	<tr>
+		<td>name</td>
+		<td>type</td>
+		<td>success?</td>
+	</tr>
+	<tr>
+		<td>Kingstone</td>
+		<td>organization</td>
+		<td class="pass">true</td>
+	</tr>
+	<tr>
+		<td>Western Digital</td>
+		<td>organization</td>
+		<td class="pass">true</td>
+	</tr>
+	<tr>
+		<td>Dell</td>
+		<td>organization</td>
+		<td class="pass">true</td>
+	</tr>
+</table>
+<br/><b>Rule:</b> <br/>* Name, Part number, unit price, source prices, type properties are required<br/>* Part number sould be unique<br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="8" class="error">define new product<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type getDefineNewProduct() { }</li><li>public Type defineNewProduct() { }</li></ul></span></td>
+	</tr>
+	<tr>
+		<td class="error">name<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type nameSupplierSourcePriceOptions(Type1 arg1, Type2 arg2, Type3 arg3, Type4 arg4) { }</li><li>public Type name(Type p1, Type p2, Type p3, Type p4, Type p5, Type p6, Type p7) {}</li></ul></span></td>
+		<td>part number</td>
+		<td>supplier</td>
+		<td>unit price</td>
+		<td>source price</td>
+		<td>type</td>
+		<td>options</td>
+		<td>success?</td>
+	</tr>
+	<tr>
+		<td class="error">2GB RAM<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type twoGBRAMKingstone0Comma8USD(Type1 arg1, Type2 arg2, Type3 arg3, Type4 arg4) { }</li><li>public Type twoGBRAM(Type p1, Type p2, Type p3, Type p4, Type p5, Type p6, Type p7) {}</li></ul></span></td>
+		<td>RAM007</td>
+		<td>Kingstone</td>
+		<td>1 USD</td>
+		<td>0,8 USD</td>
+		<td>simple product</td>
+		<td></td>
+		<td>yes</td>
+	</tr>
+	<tr>
+		<td class="error">4GB RAM<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type fourGBRAMKingstone1Comma7USD(Type1 arg1, Type2 arg2, Type3 arg3, Type4 arg4) { }</li><li>public Type fourGBRAM(Type p1, Type p2, Type p3, Type p4, Type p5, Type p6, Type p7) {}</li></ul></span></td>
+		<td>RAM008</td>
+		<td>Kingstone</td>
+		<td>2 USD</td>
+		<td>1,7 USD</td>
+		<td>simple product</td>
+		<td></td>
+		<td>yes</td>
+	</tr>
+	<tr>
+		<td class="error">250 GB HDD<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type two50GBHDDWesternDigital8USD(Type1 arg1, Type2 arg2, Type3 arg3, Type4 arg4) { }</li><li>public Type two50GBHDD(Type p1, Type p2, Type p3, Type p4, Type p5, Type p6, Type p7) {}</li></ul></span></td>
+		<td>HDD007</td>
+		<td>Western Digital</td>
+		<td>10 USD</td>
+		<td>8 USD</td>
+		<td>simple product</td>
+		<td></td>
+		<td>yes</td>
+	</tr>
+	<tr>
+		<td class="error">L Vostro<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type lVostroDell650USDRAM007SemicolonRAM008SemicolonHDD007(Type1 arg1, Type2 arg2, Type3 arg3, Type4 arg4) { }</li><li>public Type lVostro(Type p1, Type p2, Type p3, Type p4, Type p5, Type p6, Type p7) {}</li></ul></span></td>
+		<td>DELL007</td>
+		<td>Dell</td>
+		<td>800 USD</td>
+		<td>650 USD</td>
+		<td>configurable product</td>
+		<td>RAM007;RAM008;HDD007</td>
+		<td>yes</td>
+	</tr>
+	<tr>
+		<td class="error">4GB RAM<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type fourGBRAMWesternDigital0Comma8USD(Type1 arg1, Type2 arg2, Type3 arg3, Type4 arg4) { }</li><li>public Type fourGBRAM(Type p1, Type p2, Type p3, Type p4, Type p5, Type p6, Type p7) {}</li></ul></span></td>
+		<td>RAM007</td>
+		<td>Western Digital</td>
+		<td>1 USD</td>
+		<td>0,8 USD</td>
+		<td>simple product</td>
+		<td></td>
+		<td>no</td>
+	</tr>
+</table>
+<br/><br/><br/><br/><br/><br/>]]></content>
+    <relativePageName>DefineNewProduct</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

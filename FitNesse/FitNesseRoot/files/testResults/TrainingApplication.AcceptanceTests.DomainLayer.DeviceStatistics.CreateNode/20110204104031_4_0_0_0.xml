@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>CreateNode</rootPath>
+    <result>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+    <content><![CDATA[<br/><div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('8');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img8"/>
+	</a>
+&nbsp;
+	<span class="meta">Included page: <a href="TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateNode.SetUp">.TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateNode.SetUp</a> <a href="TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateNode.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="8"><table border="1" cellspacing="0">
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>org.training.fitnesse.node</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><h2>Create Node - Documentation and Test</h2>
+<br/><br/><b>Rule:</b><br/>If we create a new node we've to define it's factory given serial number and the allowd max number devices. In short these are required attribute.<br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="3">CreateNode</td>
+	</tr>
+	<tr>
+		<td><b>serial number</b></td>
+		<td><b>max number of devices</b></td>
+		<td><b>is success?</b></td>
+	</tr>
+	<tr>
+		<td>CXC1462</td>
+		<td>50000</td>
+		<td class="pass">true</td>
+	</tr>
+	<tr>
+		<td>CXC243</td>
+		<td>30000</td>
+		<td class="pass">true</td>
+	</tr>
+	<tr>
+		<td>null</td>
+		<td>30000</td>
+		<td class="pass">false</td>
+	</tr>
+	<tr>
+		<td>CXC1462</td>
+		<td>-1</td>
+		<td class="pass">false</td>
+	</tr>
+</table>
+<br/>]]></content>
+    <relativePageName>CreateNode</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

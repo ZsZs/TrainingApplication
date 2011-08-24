@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ProcessPuzzle default configuration values. Don not change them! -->
+<processPuzzleConfiguration>
+	<application>
+		<name>ProcessPuzzle</name>
+		<version>1.0</version>
+		<serverWorkingFolder>c:\\processpuzzle</serverWorkingFolder>
+		<clientWorkingFolder>c:\\processpuzzle</clientWorkingFolder>
+		<defaultUserAccount>
+			<name>ProcessPuzzle</name>
+			<password>ProcessPuzzle</password>
+		</defaultUserAccount>
+		<persistentDataInitializationStrategy>update</persistentDataInitializationStrategy>
+	</application>
+	
+	<runtime>
+		<environment>local</environment>
+	</runtime>
+	
+	<frontController>
+		<commandMapping>
+			<class>com.itcodex.objectpuzzle.framework.application_configuration.control.ObjectPuzzleCommandMapping</class>
+		</commandMapping>
+	</frontController>
+	
+	<persistence>
+		<persistenceStrategies>
+			<persistenceStrategy name="TEST_STRATEGY">
+				<repositoryEventHandlers>
+					<repositoryEventHandler name="TEST_PROVIDER" kind="PersistenceProvider" description="Hibernate provider, configured to use HSQL DB Server, DOMAINTIER_TEST_DB dabase.">
+						<eventHandlerClass>com.processpuzzle.persistence.domain.HibernatePersistenceProvider</eventHandlerClass>
+	
+						<!-- HSQL specific properties-->
+						<hibernate>
+							<connection>
+								<driver_class>org.hsqldb.jdbcDriver</driver_class>
+								<url>jdbc:hsqldb:mem:DOMAINTIER_TEST_DB</url>
+								<username>sa</username>
+								<password></password>
+							</connection> 
+							<dialect>org.hibernate.dialect.HSQLDialect</dialect>
+		
+							<!-- Generic properties --> 
+							<current_session_context_class>thread</current_session_context_class>
+							<show_sql>true</show_sql>
+							<transaction>
+								<factory_class>org.hibernate.transaction.JDBCTransactionFactory</factory_class>
+							</transaction>
+							<cache>
+								<provider_class>org.hibernate.cache.HashtableCacheProvider</provider_class>
+								<use_second_level_cache>true</use_second_level_cache>
+								<use_query_cache>true</use_query_cache>
+							</cache>
+							<c3p0>
+								<max_size>5</max_size>
+								<min_size>2</min_size>
+								<timeout>5000</timeout>
+								<max_statements>100</max_statements>
+								<idle_test_period>3000</idle_test_period>
+								<acquire_increment>2</acquire_increment>
+								<validate>false</validate>
+							</c3p0>
+							<hbm2ddl>
+								<auto>create-drop</auto>
+							</hbm2ddl>
+						</hibernate>
+					</repositoryEventHandler>
+				</repositoryEventHandlers>
+			</persistenceStrategy>
+		</persistenceStrategies>
+
+		<repositories>
+			<repositoryList class="com.processpuzzle.application.configuration.domain.FrameworkRepositories" strategy="TEST_STRATEGY"/>
+			<repository class="com.processpuzzle.persistence.domain.TestEntityRepository" strategy="TEST_STRATEGY"/>
+			<repository class="com.processpuzzle.persistence.domain.ComponentRepository" strategy="TEST_STRATEGY"/>
+		</repositories>
+
+		<persistentClasses>
+			<persistentClassList class="com.processpuzzle.application.configuration.domain.FrameworkPersistentClasses"/>
+			<persistentClass class="com.processpuzzle.persistence.domain.TestEntity"/>
+			<persistentClass class="com.processpuzzle.persistence.domain.TestEntityComponent"/>
+			<persistentClass class="com.processpuzzle.persistence.domain.TestEntitySubclass"/>
+			<persistentClass class="com.processpuzzle.persistence.domain.Component"/>
+			<persistentClass class="com.processpuzzle.persistence.domain.Leaf"/>
+			<persistentClass class="com.processpuzzle.persistence.domain.Composite"/>
+		</persistentClasses>
+
+	</persistence>
+	
+	<internalization>
+		<resourceBundle>classpath:com/processpuzzle/internalization/domain/TestResources</resourceBundle>
+		<resourceBundle>classpath:com/processpuzzle/internalization/domain/AnotherTestResources</resourceBundle>
+		<availableLocales>
+			<locale>hu, HU</locale>
+			<locale>en, US</locale>
+			<locale>en, GB</locale>
+		</availableLocales>
+		<defaultLocale>hu, HU</defaultLocale>
+		<localeDefinitions>classpath:com/processpuzzle/internalization/domain/LocaleDefinitions.xml</localeDefinitions>
+	</internalization>
+	
+	<dataLoaders>
+		<dataLoader kind="system">
+			<dataLoaderClass>com.processpuzzle.sharedfixtures.domaintier.FrameworkDomaintierTestDatas</dataLoaderClass>
+			<instantiationArguments></instantiationArguments>
+		</dataLoader>
+		
+		<dataLoader kind="system">
+			<dataLoaderClass>com.processpuzzle.application.domain.TestDataLoaderWithConstructorArguments</dataLoaderClass>
+			<instantiationArguments>
+				<argument name="argumentOne" type="java.lang.String">Hello World!</argument>
+				<argument name="argumentTwo" type="java.lang.String">All that jazz!</argument>
+			</instantiationArguments>
+		</dataLoader>
+	</dataLoaders>
+	
+	<emailing>
+		<system>
+			<activation>passive</activation>
+		</system>
+		<host>
+			<systemUser>
+				<name>gabox01</name>
+				<password>ggmail81</password>
+			</systemUser>
+		</host>
+		<smtp>
+			<host>smtp.gmail.com</host>
+			<auth>true</auth>
+			<debug>true</debug>
+			<port>465</port>
+			<socketFactory>
+				<port>465</port>
+				<class>javax.net.ssl.SSLSocketFactory</class>
+				<fallback>false</fallback>
+			</socketFactory>
+		</smtp>
+	</emailing>
+	
+	<beanContainer>
+		<containerDefinitionPath>classpath:com/processpuzzle/sharedfixtures/domaintier/ComponentsContainerDefinition.xml</containerDefinitionPath>
+	</beanContainer>
+	
+	<businessDefinitions>
+		<schema>classpath:com/processpuzzle/business/definition/domain/BusinessDefinition.xsd</schema>
+		<mapping>classpath:com/processpuzzle/business/definition/domain/BusinessDefinitionMapping.xml</mapping>
+		<businessDefinition>classpath:com/processpuzzle/sharedfixtures/domaintier/TestBusinessDefinition.xml</businessDefinition>
+		<businessDefinition>classpath:com/processpuzzle/sharedfixtures/domaintier/AnotherBusinessDefinition.xml</businessDefinition>
+	</businessDefinitions>
+	
+	<businessImplementations>
+		<schema>classpath:BusinessImplementation.xsd</schema>
+		<businessImplementation>classpath:com/processpuzzle/sharedfixtures/domaincomponents/BusinessImplementation.xml</businessImplementation>
+	</businessImplementations>
+
+</processPuzzleConfiguration>

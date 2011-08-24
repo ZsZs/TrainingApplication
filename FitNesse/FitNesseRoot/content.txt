@@ -1,0 +1,35 @@
+!3 Global Variable Definitions
+The settings and definitions here can be used in all application specific sub sites. ''Note that you can define other ones or overwrite variables there too.''
+!***> Global variable definitions
+!define JavaHome {c:\Program Files (x86)\Java\jdk1.6.0_17}
+!define CompiledClasses {Binaries}
+!define PackagedClasses {Build\Distribution\*.jar}
+!define InstrumentedClasses {Build\Reports\Cobertura\instrumented}
+!define ViewPath {e:\zsolt.zsuffa_webview_on_nagyokos}
+!define FitNessePath {c:\FitNesse}
+!define CoberturaPath {c:\Program Files (x86)\Cobertura-1.9.3}
+!define TestServer {http://localhost:9005}
+***!
+
+!***> Global test runner
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+***!
+
+'''Set Class Path according to the specific environment configuration.'''
+!*****> Common Class Path - Used by all projects
+'''!-FitLibrary-!:'''
+!path ${ViewPath}\ProcessPuzzle\Framework\build\DevelopmentLibraries\FIT\fitlibrary.jar
+
+'''Mockito for literate mocking'''
+!path ${ViewPath}\ProcessPuzzle\Framework\build\DevelopmentLibraries\Mockito\mockito-all-1.8.5.jar
+
+'''!-DbFit-! FIT extendsion for database testing'''
+!path ${ViewPath}\ProcessPuzzle\Framework\build\DevelopmentLibraries\FIT\dbfit-20080822.jar
+
+'''Cobertura required for test coverage computation'''
+!path ${CoberturaPath}\cobertura.jar
+!path ${CoberturaPath}\lib\*.jar
+
+#'''Logging configuration'''
+#!path ${FitNessePath}\log4j.properties
+*****!

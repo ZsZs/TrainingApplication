@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.profile" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ProfileBase="http:///schemas/ProfileBase/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xsi:schemaLocation="http:///schemas/ProfileBase/1 pathmap://UML2_MSL_PROFILES/ProfileBase.epx#_IfFYQMmBEdqBcN1R6EvWUw?ProfileBase/ProfileBase?">
+  <uml:Profile xmi:id="_qGF-kG2CEdyYPua_J4ujcA" name="Use Case Modeling Profile" metamodelReference="_qGF-km2CEdyYPua_J4ujcA">
+    <eAnnotations xmi:id="_qGeZEW2CEdyYPua_J4ujcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_e_0PMSuyEeCrDLvPoGZ19A" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_e_0PMCuyEeCrDLvPoGZ19A/20" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_0PMiuyEeCrDLvPoGZ19A" name="FunctionGroup">
+          <eAnnotations xmi:id="_e_0PMyuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_0PNCuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_0PNiuyEeCrDLvPoGZ19A" name="Application">
+          <eAnnotations xmi:id="_e_0PNyuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_e_0POCuyEeCrDLvPoGZ19A" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_e_0POiuyEeCrDLvPoGZ19A" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_0PPCuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_0PPiuyEeCrDLvPoGZ19A" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_0PQCuyEeCrDLvPoGZ19A" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_e_0PQSuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_0PQiuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_0PRCuyEeCrDLvPoGZ19A" name="BusinessArea">
+          <eAnnotations xmi:id="_e_0PRSuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_0PRiuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_0PSCuyEeCrDLvPoGZ19A" name="ApplicationGroup">
+          <eAnnotations xmi:id="_e_0PSSuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_0PSiuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_0PTCuyEeCrDLvPoGZ19A" name="FunctionalDependency">
+          <eAnnotations xmi:id="_e_0PTSuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_02QCuyEeCrDLvPoGZ19A" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_02QiuyEeCrDLvPoGZ19A" name="SystemActor">
+          <eAnnotations xmi:id="_e_02QyuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_02RCuyEeCrDLvPoGZ19A" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_02RiuyEeCrDLvPoGZ19A" name="UseCaseModel">
+          <eAnnotations xmi:id="_e_02RyuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_02SCuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_02SiuyEeCrDLvPoGZ19A" name="Overview">
+          <eAnnotations xmi:id="_e_02SyuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lt56sKXHEdyz4tKiDee1Ug"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_02TCuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_02TiuyEeCrDLvPoGZ19A" name="UseCasePackage">
+          <eAnnotations xmi:id="_e_02TyuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Xt0EwAF0Ed2pvORyOKakkw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_02UCuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_02UiuyEeCrDLvPoGZ19A" name="UseCase">
+          <eAnnotations xmi:id="_e_02UyuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_zRHowAF0Ed2pvORyOKakkw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_02VCuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_e_02ViuyEeCrDLvPoGZ19A" name="UseCases">
+          <eAnnotations xmi:id="_e_02VyuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_LYGBsCuyEeCrDLvPoGZ19A"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_e_02WCuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_L6aroCuyEeCrDLvPoGZ19A" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_L6XoUCuyEeCrDLvPoGZ19A/19" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6aroSuyEeCrDLvPoGZ19A" name="FunctionGroup">
+          <eAnnotations xmi:id="_L6aroiuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6aroyuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6arpSuyEeCrDLvPoGZ19A" name="Application">
+          <eAnnotations xmi:id="_L6arpiuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L6arpyuyEeCrDLvPoGZ19A" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L6arqSuyEeCrDLvPoGZ19A" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bSsCuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bSsiuyEeCrDLvPoGZ19A" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6bStCuyEeCrDLvPoGZ19A" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_L6bStSuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bStiuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6bSuCuyEeCrDLvPoGZ19A" name="BusinessArea">
+          <eAnnotations xmi:id="_L6bSuSuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bSuiuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6bSvCuyEeCrDLvPoGZ19A" name="ApplicationGroup">
+          <eAnnotations xmi:id="_L6bSvSuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bSviuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6bSwCuyEeCrDLvPoGZ19A" name="FunctionalDependency">
+          <eAnnotations xmi:id="_L6bSwSuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bSwiuyEeCrDLvPoGZ19A" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6bSxCuyEeCrDLvPoGZ19A" name="SystemActor">
+          <eAnnotations xmi:id="_L6bSxSuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bSxiuyEeCrDLvPoGZ19A" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6bSyCuyEeCrDLvPoGZ19A" name="UseCaseModel">
+          <eAnnotations xmi:id="_L6bSySuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bSyiuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6bSzCuyEeCrDLvPoGZ19A" name="Overview">
+          <eAnnotations xmi:id="_L6bSzSuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lt56sKXHEdyz4tKiDee1Ug"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bSziuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6bS0CuyEeCrDLvPoGZ19A" name="UseCasePackage">
+          <eAnnotations xmi:id="_L6bS0SuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Xt0EwAF0Ed2pvORyOKakkw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bS0iuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6bS1CuyEeCrDLvPoGZ19A" name="UseCase">
+          <eAnnotations xmi:id="_L6bS1SuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_zRHowAF0Ed2pvORyOKakkw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bS1iuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6bS2CuyEeCrDLvPoGZ19A" name="UseCases">
+          <eAnnotations xmi:id="_L6bS2SuyEeCrDLvPoGZ19A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_LYGBsCuyEeCrDLvPoGZ19A"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6bS2iuyEeCrDLvPoGZ19A" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_9qAvMQF0Ed2pvORyOKakkw" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_9qAvMAF0Ed2pvORyOKakkw/18" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvMgF0Ed2pvORyOKakkw" name="FunctionGroup">
+          <eAnnotations xmi:id="_9qAvMwF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvNAF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvNQF0Ed2pvORyOKakkw" name="Application">
+          <eAnnotations xmi:id="_9qAvNgF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9qAvNwF0Ed2pvORyOKakkw" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9qAvOAF0Ed2pvORyOKakkw" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvOQF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvOgF0Ed2pvORyOKakkw" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvOwF0Ed2pvORyOKakkw" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_9qAvPAF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvPQF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvPgF0Ed2pvORyOKakkw" name="BusinessArea">
+          <eAnnotations xmi:id="_9qAvPwF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvQAF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvQQF0Ed2pvORyOKakkw" name="ApplicationGroup">
+          <eAnnotations xmi:id="_9qAvQgF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvQwF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvRAF0Ed2pvORyOKakkw" name="FunctionalDependency">
+          <eAnnotations xmi:id="_9qAvRQF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvRgF0Ed2pvORyOKakkw" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvRwF0Ed2pvORyOKakkw" name="SystemActor">
+          <eAnnotations xmi:id="_9qAvSAF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvSQF0Ed2pvORyOKakkw" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvSgF0Ed2pvORyOKakkw" name="UseCaseModel">
+          <eAnnotations xmi:id="_9qAvSwF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvTAF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvTQF0Ed2pvORyOKakkw" name="Overview">
+          <eAnnotations xmi:id="_9qAvTgF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lt56sKXHEdyz4tKiDee1Ug"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvTwF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvUAF0Ed2pvORyOKakkw" name="UseCasePackage">
+          <eAnnotations xmi:id="_9qAvUQF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Xt0EwAF0Ed2pvORyOKakkw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvUgF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_9qAvUwF0Ed2pvORyOKakkw" name="UseCase">
+          <eAnnotations xmi:id="_9qAvVAF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_zRHowAF0Ed2pvORyOKakkw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9qAvVQF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_2ynZkQF0Ed2pvORyOKakkw" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_2ynZkAF0Ed2pvORyOKakkw/17" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZkgF0Ed2pvORyOKakkw" name="FunctionGroup">
+          <eAnnotations xmi:id="_2ynZkwF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZlAF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZlQF0Ed2pvORyOKakkw" name="Application">
+          <eAnnotations xmi:id="_2ynZlgF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2ynZlwF0Ed2pvORyOKakkw" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2ynZmAF0Ed2pvORyOKakkw" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZmQF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZmgF0Ed2pvORyOKakkw" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZmwF0Ed2pvORyOKakkw" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_2ynZnAF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZnQF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZngF0Ed2pvORyOKakkw" name="BusinessArea">
+          <eAnnotations xmi:id="_2ynZnwF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZoAF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZoQF0Ed2pvORyOKakkw" name="ApplicationGroup">
+          <eAnnotations xmi:id="_2ynZogF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZowF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZpAF0Ed2pvORyOKakkw" name="FunctionalDependency">
+          <eAnnotations xmi:id="_2ynZpQF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZpgF0Ed2pvORyOKakkw" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZpwF0Ed2pvORyOKakkw" name="SystemActor">
+          <eAnnotations xmi:id="_2ynZqAF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZqQF0Ed2pvORyOKakkw" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZqgF0Ed2pvORyOKakkw" name="UseCaseModel">
+          <eAnnotations xmi:id="_2ynZqwF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZrAF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZrQF0Ed2pvORyOKakkw" name="Overview">
+          <eAnnotations xmi:id="_2ynZrgF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lt56sKXHEdyz4tKiDee1Ug"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZrwF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZsAF0Ed2pvORyOKakkw" name="UseCasePackage">
+          <eAnnotations xmi:id="_2ynZsQF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Xt0EwAF0Ed2pvORyOKakkw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZsgF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_2ynZswF0Ed2pvORyOKakkw" name="UseCase">
+          <eAnnotations xmi:id="_2ynZtAF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_zRHowAF0Ed2pvORyOKakkw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2ynZtQF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_0GtM8QF0Ed2pvORyOKakkw" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_0GtM8AF0Ed2pvORyOKakkw/16" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtM8gF0Ed2pvORyOKakkw" name="FunctionGroup">
+          <eAnnotations xmi:id="_0GtM8wF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtM9AF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtM9QF0Ed2pvORyOKakkw" name="Application">
+          <eAnnotations xmi:id="_0GtM9gF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_0GtM9wF0Ed2pvORyOKakkw" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_0GtM-AF0Ed2pvORyOKakkw" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtM-QF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtM-gF0Ed2pvORyOKakkw" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtM-wF0Ed2pvORyOKakkw" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_0GtM_AF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtM_QF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtM_gF0Ed2pvORyOKakkw" name="BusinessArea">
+          <eAnnotations xmi:id="_0GtM_wF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtNAAF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtNAQF0Ed2pvORyOKakkw" name="ApplicationGroup">
+          <eAnnotations xmi:id="_0GtNAgF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtNAwF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtNBAF0Ed2pvORyOKakkw" name="FunctionalDependency">
+          <eAnnotations xmi:id="_0GtNBQF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtNBgF0Ed2pvORyOKakkw" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtNBwF0Ed2pvORyOKakkw" name="SystemActor">
+          <eAnnotations xmi:id="_0GtNCAF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtNCQF0Ed2pvORyOKakkw" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtNCgF0Ed2pvORyOKakkw" name="UseCaseModel">
+          <eAnnotations xmi:id="_0GtNCwF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtNDAF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtNDQF0Ed2pvORyOKakkw" name="Overview">
+          <eAnnotations xmi:id="_0GtNDgF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lt56sKXHEdyz4tKiDee1Ug"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtNDwF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtNEAF0Ed2pvORyOKakkw" name="UseCasePackage">
+          <eAnnotations xmi:id="_0GtNEQF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Xt0EwAF0Ed2pvORyOKakkw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtNEgF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0GtNEwF0Ed2pvORyOKakkw" name="Copy_1_UseCasePackage">
+          <eAnnotations xmi:id="_0GtNFAF0Ed2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_zRHowAF0Ed2pvORyOKakkw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0GtNFQF0Ed2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_3gV3sQFzEd2pvORyOKakkw" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_3gV3sAFzEd2pvORyOKakkw/15" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3gV3sgFzEd2pvORyOKakkw" name="FunctionGroup">
+          <eAnnotations xmi:id="_3gV3swFzEd2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3gV3tAFzEd2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3gV3tQFzEd2pvORyOKakkw" name="Application">
+          <eAnnotations xmi:id="_3gV3tgFzEd2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_3gV3twFzEd2pvORyOKakkw" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_3gV3uAFzEd2pvORyOKakkw" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3gV3uQFzEd2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3gV3ugFzEd2pvORyOKakkw" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3gV3uwFzEd2pvORyOKakkw" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_3gV3vAFzEd2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3gV3vQFzEd2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3gV3vgFzEd2pvORyOKakkw" name="BusinessArea">
+          <eAnnotations xmi:id="_3gV3vwFzEd2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3gV3wAFzEd2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3gV3wQFzEd2pvORyOKakkw" name="ApplicationGroup">
+          <eAnnotations xmi:id="_3gV3wgFzEd2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3gV3wwFzEd2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3gV3xAFzEd2pvORyOKakkw" name="FunctionalDependency">
+          <eAnnotations xmi:id="_3gV3xQFzEd2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3gV3xgFzEd2pvORyOKakkw" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3gV3xwFzEd2pvORyOKakkw" name="SystemActor">
+          <eAnnotations xmi:id="_3gV3yAFzEd2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3gV3yQFzEd2pvORyOKakkw" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3gV3ygFzEd2pvORyOKakkw" name="UseCaseModel">
+          <eAnnotations xmi:id="_3gV3ywFzEd2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3gV3zAFzEd2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3gV3zQFzEd2pvORyOKakkw" name="Overview">
+          <eAnnotations xmi:id="_3gV3zgFzEd2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lt56sKXHEdyz4tKiDee1Ug"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3gV3zwFzEd2pvORyOKakkw" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_3gV30AFzEd2pvORyOKakkw" name="UseCase">
+          <eAnnotations xmi:id="_3gV30QFzEd2pvORyOKakkw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_secaYaXHEdyz4tKiDee1Ug" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_secaYKXHEdyz4tKiDee1Ug/14" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_secaYqXHEdyz4tKiDee1Ug" name="FunctionGroup">
+          <eAnnotations xmi:id="_secaY6XHEdyz4tKiDee1Ug" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_secaZKXHEdyz4tKiDee1Ug" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_secaZaXHEdyz4tKiDee1Ug" name="Application">
+          <eAnnotations xmi:id="_secaZqXHEdyz4tKiDee1Ug" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_secaZ6XHEdyz4tKiDee1Ug" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_secaaKXHEdyz4tKiDee1Ug" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_secaaaXHEdyz4tKiDee1Ug" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_secaaqXHEdyz4tKiDee1Ug" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_secaa6XHEdyz4tKiDee1Ug" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_secabKXHEdyz4tKiDee1Ug" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_secabaXHEdyz4tKiDee1Ug" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_secabqXHEdyz4tKiDee1Ug" name="BusinessArea">
+          <eAnnotations xmi:id="_secab6XHEdyz4tKiDee1Ug" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_secacKXHEdyz4tKiDee1Ug" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_secacaXHEdyz4tKiDee1Ug" name="ApplicationGroup">
+          <eAnnotations xmi:id="_secacqXHEdyz4tKiDee1Ug" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_secac6XHEdyz4tKiDee1Ug" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_secadKXHEdyz4tKiDee1Ug" name="FunctionalDependency">
+          <eAnnotations xmi:id="_secadaXHEdyz4tKiDee1Ug" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_secadqXHEdyz4tKiDee1Ug" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_secad6XHEdyz4tKiDee1Ug" name="SystemActor">
+          <eAnnotations xmi:id="_secaeKXHEdyz4tKiDee1Ug" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_secaeaXHEdyz4tKiDee1Ug" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_secaeqXHEdyz4tKiDee1Ug" name="UseCaseModel">
+          <eAnnotations xmi:id="_secae6XHEdyz4tKiDee1Ug" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_secafKXHEdyz4tKiDee1Ug" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_secafaXHEdyz4tKiDee1Ug" name="Overview">
+          <eAnnotations xmi:id="_secafqXHEdyz4tKiDee1Ug" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lt56sKXHEdyz4tKiDee1Ug"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_secaf6XHEdyz4tKiDee1Ug" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_lbzZIqBYEdy6UrcMU7dgUA" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_lbzZIaBYEdy6UrcMU7dgUA/13" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbzZI6BYEdy6UrcMU7dgUA" name="FunctionGroup">
+          <eAnnotations xmi:id="_lbzZJKBYEdy6UrcMU7dgUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbzZJaBYEdy6UrcMU7dgUA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbzZJqBYEdy6UrcMU7dgUA" name="Application">
+          <eAnnotations xmi:id="_lbzZJ6BYEdy6UrcMU7dgUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_lbzZKKBYEdy6UrcMU7dgUA" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_lbzZKaBYEdy6UrcMU7dgUA" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbzZKqBYEdy6UrcMU7dgUA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbzZK6BYEdy6UrcMU7dgUA" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbzZLKBYEdy6UrcMU7dgUA" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_lbzZLaBYEdy6UrcMU7dgUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbzZLqBYEdy6UrcMU7dgUA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbzZL6BYEdy6UrcMU7dgUA" name="BusinessArea">
+          <eAnnotations xmi:id="_lbzZMKBYEdy6UrcMU7dgUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbzZMaBYEdy6UrcMU7dgUA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbzZMqBYEdy6UrcMU7dgUA" name="ApplicationGroup">
+          <eAnnotations xmi:id="_lbzZM6BYEdy6UrcMU7dgUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbzZNKBYEdy6UrcMU7dgUA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbzZNaBYEdy6UrcMU7dgUA" name="FunctionalDependency">
+          <eAnnotations xmi:id="_lbzZNqBYEdy6UrcMU7dgUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbzZN6BYEdy6UrcMU7dgUA" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbzZOKBYEdy6UrcMU7dgUA" name="SystemActor">
+          <eAnnotations xmi:id="_lbzZOaBYEdy6UrcMU7dgUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbzZOqBYEdy6UrcMU7dgUA" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbzZO6BYEdy6UrcMU7dgUA" name="UseCaseModel">
+          <eAnnotations xmi:id="_lbzZPKBYEdy6UrcMU7dgUA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbzZPaBYEdy6UrcMU7dgUA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_4t6tYaA0EdyulaIT6qD5AA" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_4t6tYKA0EdyulaIT6qD5AA/12" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4t6tYqA0EdyulaIT6qD5AA" name="FunctionGroup">
+          <eAnnotations xmi:id="_4t6tY6A0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4t6tZKA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4t6tZaA0EdyulaIT6qD5AA" name="Application">
+          <eAnnotations xmi:id="_4t6tZqA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_4t6tZ6A0EdyulaIT6qD5AA" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_4t6taKA0EdyulaIT6qD5AA" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4t6taaA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4t6taqA0EdyulaIT6qD5AA" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4t6ta6A0EdyulaIT6qD5AA" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_4t6tbKA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4t6tbaA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4t6tbqA0EdyulaIT6qD5AA" name="BusinessArea">
+          <eAnnotations xmi:id="_4t6tb6A0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4t6tcKA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4t6tcaA0EdyulaIT6qD5AA" name="ApplicationGroup">
+          <eAnnotations xmi:id="_4t6tcqA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4t6tc6A0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4t6tdKA0EdyulaIT6qD5AA" name="FunctionalDependency">
+          <eAnnotations xmi:id="_4t6tdaA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4t6tdqA0EdyulaIT6qD5AA" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4t6td6A0EdyulaIT6qD5AA" name="SystemActor">
+          <eAnnotations xmi:id="_4t6teKA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4t6teaA0EdyulaIT6qD5AA" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4t6teqA0EdyulaIT6qD5AA" name="UseCaseModel">
+          <eAnnotations xmi:id="_4t6te6A0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4t6tfKA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_1E9CoaA0EdyulaIT6qD5AA" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_1E9CoKA0EdyulaIT6qD5AA/11" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_1E9CoqA0EdyulaIT6qD5AA" name="FunctionGroup">
+          <eAnnotations xmi:id="_1E9Co6A0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1E9CpKA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_1E9CpaA0EdyulaIT6qD5AA" name="Application">
+          <eAnnotations xmi:id="_1E9CpqA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1E9Cp6A0EdyulaIT6qD5AA" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1E9CqKA0EdyulaIT6qD5AA" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1E9CqaA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1E9CqqA0EdyulaIT6qD5AA" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_1E9Cq6A0EdyulaIT6qD5AA" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_1E9CrKA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1E9CraA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_1E9CrqA0EdyulaIT6qD5AA" name="BusinessArea">
+          <eAnnotations xmi:id="_1E9Cr6A0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1E9CsKA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_1E9CsaA0EdyulaIT6qD5AA" name="ApplicationGroup">
+          <eAnnotations xmi:id="_1E9CsqA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1E9Cs6A0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_1E9CtKA0EdyulaIT6qD5AA" name="FunctionalDependency">
+          <eAnnotations xmi:id="_1E9CtaA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1E9CtqA0EdyulaIT6qD5AA" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_1E9Ct6A0EdyulaIT6qD5AA" name="SystemActor">
+          <eAnnotations xmi:id="_1E9CuKA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1E9CuaA0EdyulaIT6qD5AA" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_1E9CuqA0EdyulaIT6qD5AA" name="UseCaseModel">
+          <eAnnotations xmi:id="_1E9Cu6A0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1E9CvKA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_v7hqsaA0EdyulaIT6qD5AA" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_v7hqsKA0EdyulaIT6qD5AA/10" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7hqsqA0EdyulaIT6qD5AA" name="FunctionGroup">
+          <eAnnotations xmi:id="_v7hqs6A0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7hqtKA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7hqtaA0EdyulaIT6qD5AA" name="Application">
+          <eAnnotations xmi:id="_v7hqtqA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_v7hqt6A0EdyulaIT6qD5AA" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_v7hquKA0EdyulaIT6qD5AA" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7hquaA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7hquqA0EdyulaIT6qD5AA" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7hqu6A0EdyulaIT6qD5AA" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_v7hqvKA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7hqvaA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7hqvqA0EdyulaIT6qD5AA" name="BusinessArea">
+          <eAnnotations xmi:id="_v7hqv6A0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7hqwKA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7hqwaA0EdyulaIT6qD5AA" name="ApplicationGroup">
+          <eAnnotations xmi:id="_v7hqwqA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7hqw6A0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7hqxKA0EdyulaIT6qD5AA" name="FunctionalDependency">
+          <eAnnotations xmi:id="_v7hqxaA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7hqxqA0EdyulaIT6qD5AA" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7hqx6A0EdyulaIT6qD5AA" name="SystemActor">
+          <eAnnotations xmi:id="_v7hqyKA0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7hqyaA0EdyulaIT6qD5AA" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7hqyqA0EdyulaIT6qD5AA" name="UseCaseModel">
+          <eAnnotations xmi:id="_v7hqy6A0EdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tDj_EKA0EdyulaIT6qD5AA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7hqzKA0EdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_wgRQIKAsEdyulaIT6qD5AA" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_wgLJgKAsEdyulaIT6qD5AA/9" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_wgRQIaAsEdyulaIT6qD5AA" name="FunctionGroup">
+          <eAnnotations xmi:id="_wgRQIqAsEdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wgRQI6AsEdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_wgRQJKAsEdyulaIT6qD5AA" name="Application">
+          <eAnnotations xmi:id="_wgRQJaAsEdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_wgRQJqAsEdyulaIT6qD5AA" name="SupportResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_wgRQJ6AsEdyulaIT6qD5AA" name="DevelopmentResponsible" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wgRQKKAsEdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wgRQKaAsEdyulaIT6qD5AA" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_wgRQKqAsEdyulaIT6qD5AA" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_wgRQK6AsEdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wgRQLKAsEdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_wgRQLaAsEdyulaIT6qD5AA" name="BusinessArea">
+          <eAnnotations xmi:id="_wgRQLqAsEdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wgRQL6AsEdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_wgRQMKAsEdyulaIT6qD5AA" name="ApplicationGroup">
+          <eAnnotations xmi:id="_wgRQMaAsEdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wgRQMqAsEdyulaIT6qD5AA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_wgRQM6AsEdyulaIT6qD5AA" name="FunctionalDependency">
+          <eAnnotations xmi:id="_wgRQNKAsEdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wgRQNaAsEdyulaIT6qD5AA" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_wgRQNqAsEdyulaIT6qD5AA" name="SystemActor">
+          <eAnnotations xmi:id="_wgRQN6AsEdyulaIT6qD5AA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wgRQOKAsEdyulaIT6qD5AA" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_bDCEkaACEdyefrxMyqadKg" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_bDCEkKACEdyefrxMyqadKg/8" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bDCEkqACEdyefrxMyqadKg" name="FunctionGroup">
+          <eAnnotations xmi:id="_bDCEk6ACEdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bDCElKACEdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bDCElaACEdyefrxMyqadKg" name="Application">
+          <eAnnotations xmi:id="_bDCElqACEdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bDCEl6ACEdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bDCEmKACEdyefrxMyqadKg" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bDCEmaACEdyefrxMyqadKg" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_bDCEmqACEdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bDCEm6ACEdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bDCEnKACEdyefrxMyqadKg" name="BusinessArea">
+          <eAnnotations xmi:id="_bDCEnaACEdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bDCEnqACEdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bDCEn6ACEdyefrxMyqadKg" name="ApplicationGroup">
+          <eAnnotations xmi:id="_bDCEoKACEdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bDCEoaACEdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bDCEoqACEdyefrxMyqadKg" name="FunctionalDependency">
+          <eAnnotations xmi:id="_bDCEo6ACEdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bDCEpKACEdyefrxMyqadKg" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bDCEpaACEdyefrxMyqadKg" name="SystemActor">
+          <eAnnotations xmi:id="_bDCEpqACEdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bDCEp6ACEdyefrxMyqadKg" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_0rs6IZ_9EdyefrxMyqadKg" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_0rs6IJ_9EdyefrxMyqadKg/7" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0rs6Ip_9EdyefrxMyqadKg" name="FunctionGroup">
+          <eAnnotations xmi:id="_0rs6I5_9EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0rs6JJ_9EdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0rs6JZ_9EdyefrxMyqadKg" name="Application">
+          <eAnnotations xmi:id="_0rs6Jp_9EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0rs6J5_9EdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0rs6KJ_9EdyefrxMyqadKg" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0rs6KZ_9EdyefrxMyqadKg" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_0rs6Kp_9EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0rs6K5_9EdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0rs6LJ_9EdyefrxMyqadKg" name="BusinessArea">
+          <eAnnotations xmi:id="_0rs6LZ_9EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0rs6Lp_9EdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0rs6L5_9EdyefrxMyqadKg" name="ApplicationGroup">
+          <eAnnotations xmi:id="_0rs6MJ_9EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0rs6MZ_9EdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0rs6Mp_9EdyefrxMyqadKg" name="FunctionalDependency">
+          <eAnnotations xmi:id="_0rs6M5_9EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0rs6NJ_9EdyefrxMyqadKg" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0rs6NZ_9EdyefrxMyqadKg" name="SystemActor">
+          <eAnnotations xmi:id="_0rs6Np_9EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RN0FMJ_9EdyefrxMyqadKg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0rs6N5_9EdyefrxMyqadKg" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_i9tD0p_8EdyefrxMyqadKg" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_i9tD0Z_8EdyefrxMyqadKg/6" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_i9tD05_8EdyefrxMyqadKg" name="FunctionGroup">
+          <eAnnotations xmi:id="_i9tD1J_8EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i9tD1Z_8EdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_i9tD1p_8EdyefrxMyqadKg" name="Application">
+          <eAnnotations xmi:id="_i9tD15_8EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i9tD2J_8EdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i9tD2Z_8EdyefrxMyqadKg" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_i9tD2p_8EdyefrxMyqadKg" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_i9tD25_8EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i9tD3J_8EdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_i9tD3Z_8EdyefrxMyqadKg" name="BusinessArea">
+          <eAnnotations xmi:id="_i9tD3p_8EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i9tD35_8EdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_i9tD4J_8EdyefrxMyqadKg" name="ApplicationGroup">
+          <eAnnotations xmi:id="_i9tD4Z_8EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i9tD4p_8EdyefrxMyqadKg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_i9tD45_8EdyefrxMyqadKg" name="FunctionalDependency">
+          <eAnnotations xmi:id="_i9tD5J_8EdyefrxMyqadKg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i9tD5Z_8EdyefrxMyqadKg" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_mDGt8J-NEdyQcsnkdnKopg" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_mDAnUJ-NEdyQcsnkdnKopg/5" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mDGt8Z-NEdyQcsnkdnKopg" name="FunctionGroup">
+          <eAnnotations xmi:id="_mDGt8p-NEdyQcsnkdnKopg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mDGt85-NEdyQcsnkdnKopg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mDGt9J-NEdyQcsnkdnKopg" name="Application">
+          <eAnnotations xmi:id="_mDGt9Z-NEdyQcsnkdnKopg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mDGt9p-NEdyQcsnkdnKopg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mDGt95-NEdyQcsnkdnKopg" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mDGt-J-NEdyQcsnkdnKopg" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_mDGt-Z-NEdyQcsnkdnKopg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mDGt-p-NEdyQcsnkdnKopg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mDGt-5-NEdyQcsnkdnKopg" name="BusinessArea">
+          <eAnnotations xmi:id="_mDGt_J-NEdyQcsnkdnKopg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mDGt_Z-NEdyQcsnkdnKopg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mDGt_p-NEdyQcsnkdnKopg" name="ApplicationGroup">
+          <eAnnotations xmi:id="_mDGt_5-NEdyQcsnkdnKopg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mDGuAJ-NEdyQcsnkdnKopg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mDGuAZ-NEdyQcsnkdnKopg" name="FunctionalDependency">
+          <eAnnotations xmi:id="_mDGuAp-NEdyQcsnkdnKopg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mDGuA5-NEdyQcsnkdnKopg" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_4qkU8Z9kEdyPYKaqFAnXCg" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_4qkU8J9kEdyPYKaqFAnXCg/4" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4qkU8p9kEdyPYKaqFAnXCg" name="FunctionGroup">
+          <eAnnotations xmi:id="_4qkU859kEdyPYKaqFAnXCg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4qkU9J9kEdyPYKaqFAnXCg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4qkU9Z9kEdyPYKaqFAnXCg" name="Application">
+          <eAnnotations xmi:id="_4qkU9p9kEdyPYKaqFAnXCg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4qkU959kEdyPYKaqFAnXCg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4qkU-J9kEdyPYKaqFAnXCg" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_4qkU-Z9kEdyPYKaqFAnXCg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4qkU-p9kEdyPYKaqFAnXCg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4qkU-59kEdyPYKaqFAnXCg" name="BusinessArea">
+          <eAnnotations xmi:id="_4qkU_J9kEdyPYKaqFAnXCg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4qkU_Z9kEdyPYKaqFAnXCg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4qkU_p9kEdyPYKaqFAnXCg" name="ApplicationGroup">
+          <eAnnotations xmi:id="_4qkU_59kEdyPYKaqFAnXCg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4qkVAJ9kEdyPYKaqFAnXCg" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_4qkVAZ9kEdyPYKaqFAnXCg" name="FunctionalDependency">
+          <eAnnotations xmi:id="_4qkVAp9kEdyPYKaqFAnXCg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sDijAJ9kEdyPYKaqFAnXCg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_4qkVA59kEdyPYKaqFAnXCg" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_mO1T4Zy7EdyP5NfxHvGNQA" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_mO1T4Jy7EdyP5NfxHvGNQA/3" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mO1T4py7EdyP5NfxHvGNQA" name="FunctionGroup">
+          <eAnnotations xmi:id="_mO1T45y7EdyP5NfxHvGNQA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfextpy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mO1T5Jy7EdyP5NfxHvGNQA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mO1T5Zy7EdyP5NfxHvGNQA" name="Application">
+          <eAnnotations xmi:id="_mO1T5py7EdyP5NfxHvGNQA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfexypy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mO1T55y7EdyP5NfxHvGNQA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mO1T6Jy7EdyP5NfxHvGNQA" name="UseCaseArchitecture">
+          <eAnnotations xmi:id="_mO1T6Zy7EdyP5NfxHvGNQA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex2Jy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mO1T6py7EdyP5NfxHvGNQA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mO1T65y7EdyP5NfxHvGNQA" name="BusinessArea">
+          <eAnnotations xmi:id="_mO1T7Jy7EdyP5NfxHvGNQA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfex5py7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mO1T7Zy7EdyP5NfxHvGNQA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_mO1T7py7EdyP5NfxHvGNQA" name="ApplicationGroup">
+          <eAnnotations xmi:id="_mO1T75y7EdyP5NfxHvGNQA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jfeyAJy7EdyP5NfxHvGNQA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mO1T8Jy7EdyP5NfxHvGNQA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_U7PJUYRKEdyEU-68xuL7og" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_U7PJUIRKEdyEU-68xuL7og/2" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_U7PJUoRKEdyEU-68xuL7og" name="UseCasePackage">
+          <eAnnotations xmi:id="_U7PJU4RKEdyEU-68xuL7og" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_U7PJVIRKEdyEU-68xuL7og" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_xbZ_QW2CEdyYPua_J4ujcA" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_xbZ_QG2CEdyYPua_J4ujcA/1" nsPrefix="UseCaseModelingProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xbZ_Qm2CEdyYPua_J4ujcA" name="UseCasePackage">
+          <eAnnotations xmi:id="_xbZ_Q22CEdyYPua_J4ujcA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xbZ_RG2CEdyYPua_J4ujcA" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_qGeZEm2CEdyYPua_J4ujcA" name="UseCaseModelingProfile" nsURI="http:///schemas/UseCaseModelingProfile/_qGeZEG2CEdyYPua_J4ujcA/0" nsPrefix="UseCaseModelingProfile"/>
+    </eAnnotations>
+    <packageImport xmi:id="_qGF-kW2CEdyYPua_J4ujcA">
+      <eAnnotations xmi:id="_xbgF4G2CEdyYPua_J4ujcA" source="uml2.extensions">
+        <details xmi:id="_xbgF4W2CEdyYPua_J4ujcA" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_qGF-km2CEdyYPua_J4ujcA">
+      <eAnnotations xmi:id="_xbgF4m2CEdyYPua_J4ujcA" source="uml2.extensions">
+        <details xmi:id="_xbgF422CEdyYPua_J4ujcA" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_jfYrEJy7EdyP5NfxHvGNQA" name="Package_UseCaseArchitecture" memberEnd="_jfYrE5y7EdyP5NfxHvGNQA _jfex25y7EdyP5NfxHvGNQA">
+      <eAnnotations xmi:id="_jfYrEZy7EdyP5NfxHvGNQA" source="uml2.extensions">
+        <details xmi:id="_jfYrEpy7EdyP5NfxHvGNQA" key="addedInVersion" value="9"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_jfYrE5y7EdyP5NfxHvGNQA" name="extension_UseCaseArchitecture" type="_jfex2Jy7EdyP5NfxHvGNQA" aggregation="composite" association="_jfYrEJy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfYrFJy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfYrFZy7EdyP5NfxHvGNQA" key="addedInVersion" value="9"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_jfexsJy7EdyP5NfxHvGNQA" name="Package_FunctionGroup" memberEnd="_jfexs5y7EdyP5NfxHvGNQA _jfexuZy7EdyP5NfxHvGNQA">
+      <eAnnotations xmi:id="_jfexsZy7EdyP5NfxHvGNQA" source="uml2.extensions">
+        <details xmi:id="_jfexspy7EdyP5NfxHvGNQA" key="addedInVersion" value="5"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_jfexs5y7EdyP5NfxHvGNQA" name="extension_FunctionGroup" type="_jfextpy7EdyP5NfxHvGNQA" aggregation="composite" association="_jfexsJy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfextJy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfextZy7EdyP5NfxHvGNQA" key="addedInVersion" value="5"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_jfextpy7EdyP5NfxHvGNQA" name="FunctionGroup">
+      <eAnnotations xmi:id="_jfext5y7EdyP5NfxHvGNQA" source="uml2.extensions">
+        <details xmi:id="_jfexuJy7EdyP5NfxHvGNQA" key="addedInVersion" value="4"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_jfexuZy7EdyP5NfxHvGNQA" name="base_Package" association="_jfexsJy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfexupy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfexu5y7EdyP5NfxHvGNQA" key="addedInVersion" value="5"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_jfexvJy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfexvZy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfexvpy7EdyP5NfxHvGNQA" key="addedInVersion" value="7"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_jfexv5y7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfexwJy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfexwZy7EdyP5NfxHvGNQA" key="addedInVersion" value="7"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_jfexxJy7EdyP5NfxHvGNQA" name="Package_ApplicationGroup" memberEnd="_jfexx5y7EdyP5NfxHvGNQA _jfeyA5y7EdyP5NfxHvGNQA">
+      <eAnnotations xmi:id="_jfexxZy7EdyP5NfxHvGNQA" source="uml2.extensions">
+        <details xmi:id="_jfexxpy7EdyP5NfxHvGNQA" key="addedInVersion" value="3"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_jfexx5y7EdyP5NfxHvGNQA" name="extension_ApplicationGroup" type="_jfeyAJy7EdyP5NfxHvGNQA" aggregation="composite" association="_jfexxJy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfexyJy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfexyZy7EdyP5NfxHvGNQA" key="addedInVersion" value="3"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_jfexypy7EdyP5NfxHvGNQA" name="Application">
+      <eAnnotations xmi:id="_jfexy5y7EdyP5NfxHvGNQA" source="uml2.extensions">
+        <details xmi:id="_jfexzJy7EdyP5NfxHvGNQA" key="addedInVersion" value="5"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_tZqEgKAsEdyulaIT6qD5AA" name="SupportResponsible" visibility="public">
+        <eAnnotations xmi:id="_wgRQOaAsEdyulaIT6qD5AA" source="uml2.extensions">
+          <details xmi:id="_wgRQOqAsEdyulaIT6qD5AA" key="addedInVersion" value="9"/>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_lgJKkKAsEdyulaIT6qD5AA" name="DevelopmentResponsible" visibility="public">
+        <eAnnotations xmi:id="_wgRQO6AsEdyulaIT6qD5AA" source="uml2.extensions">
+          <details xmi:id="_wgRQPKAsEdyulaIT6qD5AA" key="addedInVersion" value="9"/>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jfexzZy7EdyP5NfxHvGNQA" name="base_Package" association="_jfex9Jy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfexzpy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfexz5y7EdyP5NfxHvGNQA" key="addedInVersion" value="6"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_k99Dwp-NEdyQcsnkdnKopg" name="base_Actor" association="_k99DwJ-NEdyQcsnkdnKopg">
+        <eAnnotations xmi:id="_mDGuBJ-NEdyQcsnkdnKopg" source="uml2.extensions">
+          <details xmi:id="_mDGuBZ-NEdyQcsnkdnKopg" key="addedInVersion" value="5"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Actor"/>
+      </ownedAttribute>
+      <icon xmi:id="_jfex0Jy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfex0Zy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfex0py7EdyP5NfxHvGNQA" key="addedInVersion" value="7"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_jfex05y7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfex1Jy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfex1Zy7EdyP5NfxHvGNQA" key="addedInVersion" value="7"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_jfex2Jy7EdyP5NfxHvGNQA" name="UseCaseArchitecture">
+      <eAnnotations xmi:id="_jfex2Zy7EdyP5NfxHvGNQA" source="uml2.extensions">
+        <details xmi:id="_jfex2py7EdyP5NfxHvGNQA" key="addedInVersion" value="9"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_jfex25y7EdyP5NfxHvGNQA" name="base_Package" association="_jfYrEJy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfex3Jy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfex3Zy7EdyP5NfxHvGNQA" key="addedInVersion" value="9"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_jfex3py7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfex35y7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfex4Jy7EdyP5NfxHvGNQA" key="addedInVersion" value="10"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_jfex4Zy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfex4py7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfex45y7EdyP5NfxHvGNQA" key="addedInVersion" value="10"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_jfex5py7EdyP5NfxHvGNQA" name="BusinessArea">
+      <eAnnotations xmi:id="_jfex55y7EdyP5NfxHvGNQA" source="uml2.extensions">
+        <details xmi:id="_jfex6Jy7EdyP5NfxHvGNQA" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_jfex6Zy7EdyP5NfxHvGNQA" name="base_Package" association="_jfex-py7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfex6py7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfex65y7EdyP5NfxHvGNQA" key="addedInVersion" value="1"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_jfex7Jy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfex7Zy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfex7py7EdyP5NfxHvGNQA" key="addedInVersion" value="2"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_jfex75y7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfex8Jy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfex8Zy7EdyP5NfxHvGNQA" key="addedInVersion" value="2"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_jfex9Jy7EdyP5NfxHvGNQA" name="Package_Application" memberEnd="_jfex95y7EdyP5NfxHvGNQA _jfexzZy7EdyP5NfxHvGNQA">
+      <eAnnotations xmi:id="_jfex9Zy7EdyP5NfxHvGNQA" source="uml2.extensions">
+        <details xmi:id="_jfex9py7EdyP5NfxHvGNQA" key="addedInVersion" value="6"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_jfex95y7EdyP5NfxHvGNQA" name="extension_Application" type="_jfexypy7EdyP5NfxHvGNQA" aggregation="composite" association="_jfex9Jy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfex-Jy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfex-Zy7EdyP5NfxHvGNQA" key="addedInVersion" value="6"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_jfex-py7EdyP5NfxHvGNQA" name="Package_BusinessArea" memberEnd="_jfex_Zy7EdyP5NfxHvGNQA _jfex6Zy7EdyP5NfxHvGNQA">
+      <eAnnotations xmi:id="_jfex-5y7EdyP5NfxHvGNQA" source="uml2.extensions">
+        <details xmi:id="_jfex_Jy7EdyP5NfxHvGNQA" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_jfex_Zy7EdyP5NfxHvGNQA" name="extension_BusinessArea" type="_jfex5py7EdyP5NfxHvGNQA" aggregation="composite" association="_jfex-py7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfex_py7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfex_5y7EdyP5NfxHvGNQA" key="addedInVersion" value="1"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_jfeyAJy7EdyP5NfxHvGNQA" name="ApplicationGroup">
+      <eAnnotations xmi:id="_jfeyAZy7EdyP5NfxHvGNQA" source="uml2.extensions">
+        <details xmi:id="_jfeyApy7EdyP5NfxHvGNQA" key="addedInVersion" value="3"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_jfeyA5y7EdyP5NfxHvGNQA" name="base_Package" association="_jfexxJy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfeyBJy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfeyBZy7EdyP5NfxHvGNQA" key="addedInVersion" value="3"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_jfeyBpy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfeyB5y7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfeyCJy7EdyP5NfxHvGNQA" key="addedInVersion" value="7"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_jfeyCZy7EdyP5NfxHvGNQA">
+        <eAnnotations xmi:id="_jfeyCpy7EdyP5NfxHvGNQA" source="uml2.extensions">
+          <details xmi:id="_jfeyC5y7EdyP5NfxHvGNQA" key="addedInVersion" value="7"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_sDijAJ9kEdyPYKaqFAnXCg" name="FunctionalDependency">
+      <eAnnotations xmi:id="_4qqbkJ9kEdyPYKaqFAnXCg" source="uml2.extensions">
+        <details xmi:id="_4qqbkZ9kEdyPYKaqFAnXCg" key="addedInVersion" value="4"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_4KMLwJ9kEdyPYKaqFAnXCg" name="base_Dependency" association="_4KGFIJ9kEdyPYKaqFAnXCg">
+        <eAnnotations xmi:id="_4qqbkp9kEdyPYKaqFAnXCg" source="uml2.extensions">
+          <details xmi:id="_4qqbk59kEdyPYKaqFAnXCg" key="addedInVersion" value="4"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_4KGFIJ9kEdyPYKaqFAnXCg" name="Dependency_FunctionalDependency" memberEnd="_4KGFIZ9kEdyPYKaqFAnXCg _4KMLwJ9kEdyPYKaqFAnXCg">
+      <eAnnotations xmi:id="_4qqblJ9kEdyPYKaqFAnXCg" source="uml2.extensions">
+        <details xmi:id="_4qqblZ9kEdyPYKaqFAnXCg" key="addedInVersion" value="4"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_4KGFIZ9kEdyPYKaqFAnXCg" name="extension_FunctionalDependency" type="_sDijAJ9kEdyPYKaqFAnXCg" aggregation="composite" association="_4KGFIJ9kEdyPYKaqFAnXCg">
+        <eAnnotations xmi:id="_4qqblp9kEdyPYKaqFAnXCg" source="uml2.extensions">
+          <details xmi:id="_4qqbl59kEdyPYKaqFAnXCg" key="addedInVersion" value="4"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_k99DwJ-NEdyQcsnkdnKopg" name="Actor_Application" memberEnd="_k99DwZ-NEdyQcsnkdnKopg _k99Dwp-NEdyQcsnkdnKopg">
+      <eAnnotations xmi:id="_mDGuBp-NEdyQcsnkdnKopg" source="uml2.extensions">
+        <details xmi:id="_mDGuB5-NEdyQcsnkdnKopg" key="addedInVersion" value="5"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_k99DwZ-NEdyQcsnkdnKopg" name="extension_Application" type="_jfexypy7EdyP5NfxHvGNQA" aggregation="composite" association="_k99DwJ-NEdyQcsnkdnKopg">
+        <eAnnotations xmi:id="_mDGuCJ-NEdyQcsnkdnKopg" source="uml2.extensions">
+          <details xmi:id="_mDGuCZ-NEdyQcsnkdnKopg" key="addedInVersion" value="5"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_RN0FMJ_9EdyefrxMyqadKg" name="SystemActor">
+      <eAnnotations xmi:id="_0rs6OJ_9EdyefrxMyqadKg" source="uml2.extensions">
+        <details xmi:id="_0rs6OZ_9EdyefrxMyqadKg" key="addedInVersion" value="7"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_Y3iPop_9EdyefrxMyqadKg" name="base_Actor" association="_Y3iPoJ_9EdyefrxMyqadKg">
+        <eAnnotations xmi:id="_0rs6Op_9EdyefrxMyqadKg" source="uml2.extensions">
+          <details xmi:id="_0rs6O5_9EdyefrxMyqadKg" key="addedInVersion" value="7"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Actor"/>
+      </ownedAttribute>
+      <icon xmi:id="_yYm2IJ_9EdyefrxMyqadKg">
+        <eAnnotations xmi:id="_0rs6PJ_9EdyefrxMyqadKg" source="uml2.extensions">
+          <details xmi:id="_0rs6PZ_9EdyefrxMyqadKg" key="addedInVersion" value="7"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_y3E60J_9EdyefrxMyqadKg">
+        <eAnnotations xmi:id="_0rs6Pp_9EdyefrxMyqadKg" source="uml2.extensions">
+          <details xmi:id="_0rs6P5_9EdyefrxMyqadKg" key="addedInVersion" value="7"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_Y3iPoJ_9EdyefrxMyqadKg" name="Actor_SystemActor" memberEnd="_Y3iPoZ_9EdyefrxMyqadKg _Y3iPop_9EdyefrxMyqadKg">
+      <eAnnotations xmi:id="_0rs6QJ_9EdyefrxMyqadKg" source="uml2.extensions">
+        <details xmi:id="_0rs6QZ_9EdyefrxMyqadKg" key="addedInVersion" value="7"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_Y3iPoZ_9EdyefrxMyqadKg" name="extension_SystemActor" type="_RN0FMJ_9EdyefrxMyqadKg" aggregation="composite" association="_Y3iPoJ_9EdyefrxMyqadKg">
+        <eAnnotations xmi:id="_0rs6Qp_9EdyefrxMyqadKg" source="uml2.extensions">
+          <details xmi:id="_0rs6Q5_9EdyefrxMyqadKg" key="addedInVersion" value="7"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_tDj_EKA0EdyulaIT6qD5AA" name="UseCaseModel">
+      <eAnnotations xmi:id="_v7hqzaA0EdyulaIT6qD5AA" source="uml2.extensions">
+        <details xmi:id="_v7hqzqA0EdyulaIT6qD5AA" key="addedInVersion" value="10"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_vRTpAqA0EdyulaIT6qD5AA" name="base_Package" association="_vRTpAKA0EdyulaIT6qD5AA">
+        <eAnnotations xmi:id="_v7hqz6A0EdyulaIT6qD5AA" source="uml2.extensions">
+          <details xmi:id="_v7hq0KA0EdyulaIT6qD5AA" key="addedInVersion" value="10"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_x9zrgKA0EdyulaIT6qD5AA">
+        <eAnnotations xmi:id="_1E9CvaA0EdyulaIT6qD5AA" source="uml2.extensions">
+          <details xmi:id="_1E9CvqA0EdyulaIT6qD5AA" key="addedInVersion" value="11"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_ym4dsKA0EdyulaIT6qD5AA">
+        <eAnnotations xmi:id="_1E9Cv6A0EdyulaIT6qD5AA" source="uml2.extensions">
+          <details xmi:id="_1E9CwKA0EdyulaIT6qD5AA" key="addedInVersion" value="11"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_vRTpAKA0EdyulaIT6qD5AA" name="Package_UseCaseModel" memberEnd="_vRTpAaA0EdyulaIT6qD5AA _vRTpAqA0EdyulaIT6qD5AA">
+      <eAnnotations xmi:id="_v7hq0aA0EdyulaIT6qD5AA" source="uml2.extensions">
+        <details xmi:id="_v7hq0qA0EdyulaIT6qD5AA" key="addedInVersion" value="10"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_vRTpAaA0EdyulaIT6qD5AA" name="extension_UseCaseModel" type="_tDj_EKA0EdyulaIT6qD5AA" aggregation="composite" association="_vRTpAKA0EdyulaIT6qD5AA">
+        <eAnnotations xmi:id="_v7hq06A0EdyulaIT6qD5AA" source="uml2.extensions">
+          <details xmi:id="_v7hq1KA0EdyulaIT6qD5AA" key="addedInVersion" value="10"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_lt56sKXHEdyz4tKiDee1Ug" name="Overview">
+      <eAnnotations xmi:id="_seihAKXHEdyz4tKiDee1Ug" source="uml2.extensions">
+        <details xmi:id="_seihAaXHEdyz4tKiDee1Ug" key="addedInVersion" value="14"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_oGVKoqXHEdyz4tKiDee1Ug" name="base_Package" association="_oGVKoKXHEdyz4tKiDee1Ug">
+        <eAnnotations xmi:id="_seihAqXHEdyz4tKiDee1Ug" source="uml2.extensions">
+          <details xmi:id="_seihA6XHEdyz4tKiDee1Ug" key="addedInVersion" value="14"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_piHMIKXHEdyz4tKiDee1Ug">
+        <eAnnotations xmi:id="_seihBKXHEdyz4tKiDee1Ug" source="uml2.extensions">
+          <details xmi:id="_seihBaXHEdyz4tKiDee1Ug" key="addedInVersion" value="14"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_qwhgAKXHEdyz4tKiDee1Ug">
+        <eAnnotations xmi:id="_seihBqXHEdyz4tKiDee1Ug" source="uml2.extensions">
+          <details xmi:id="_seihB6XHEdyz4tKiDee1Ug" key="addedInVersion" value="14"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_oGVKoKXHEdyz4tKiDee1Ug" name="Package_Overview" memberEnd="_oGVKoaXHEdyz4tKiDee1Ug _oGVKoqXHEdyz4tKiDee1Ug">
+      <eAnnotations xmi:id="_seihCKXHEdyz4tKiDee1Ug" source="uml2.extensions">
+        <details xmi:id="_seihCaXHEdyz4tKiDee1Ug" key="addedInVersion" value="14"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_oGVKoaXHEdyz4tKiDee1Ug" name="extension_Overview" type="_lt56sKXHEdyz4tKiDee1Ug" aggregation="composite" association="_oGVKoKXHEdyz4tKiDee1Ug">
+        <eAnnotations xmi:id="_seihCqXHEdyz4tKiDee1Ug" source="uml2.extensions">
+          <details xmi:id="_seihC6XHEdyz4tKiDee1Ug" key="addedInVersion" value="14"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_Xt0EwAF0Ed2pvORyOKakkw" name="UseCasePackage">
+      <eAnnotations xmi:id="_Xt0EwQF0Ed2pvORyOKakkw" source="uml2.extensions">
+        <details xmi:id="_0GtNFgF0Ed2pvORyOKakkw" key="addedInVersion" value="16"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_Xt0EwwF0Ed2pvORyOKakkw" name="base_Package" association="_Xt0EzAF0Ed2pvORyOKakkw">
+        <eAnnotations xmi:id="_Xt0ExAF0Ed2pvORyOKakkw" source="uml2.extensions">
+          <details xmi:id="_0GtNFwF0Ed2pvORyOKakkw" key="addedInVersion" value="16"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_Xt0ExgF0Ed2pvORyOKakkw">
+        <eAnnotations xmi:id="_Xt0ExwF0Ed2pvORyOKakkw" source="uml2.extensions">
+          <details xmi:id="_Xt0EyAF0Ed2pvORyOKakkw" key="addedInVersion" value="11"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_Xt0EyQF0Ed2pvORyOKakkw">
+        <eAnnotations xmi:id="_Xt0EygF0Ed2pvORyOKakkw" source="uml2.extensions">
+          <details xmi:id="_Xt0EywF0Ed2pvORyOKakkw" key="addedInVersion" value="11"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_Xt0EzAF0Ed2pvORyOKakkw" name="Package_UseCasePackage" memberEnd="_Xt0EzwF0Ed2pvORyOKakkw _Xt0EwwF0Ed2pvORyOKakkw">
+      <eAnnotations xmi:id="_Xt0EzQF0Ed2pvORyOKakkw" source="uml2.extensions">
+        <details xmi:id="_0GtNGAF0Ed2pvORyOKakkw" key="addedInVersion" value="16"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_Xt0EzwF0Ed2pvORyOKakkw" name="extension_UseCaseModel" type="_Xt0EwAF0Ed2pvORyOKakkw" aggregation="composite" association="_Xt0EzAF0Ed2pvORyOKakkw">
+        <eAnnotations xmi:id="_Xt0E0AF0Ed2pvORyOKakkw" source="uml2.extensions">
+          <details xmi:id="_0GtNGQF0Ed2pvORyOKakkw" key="addedInVersion" value="16"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_zRHowAF0Ed2pvORyOKakkw" name="UseCase">
+      <eAnnotations xmi:id="_zRHowQF0Ed2pvORyOKakkw" source="uml2.extensions">
+        <details xmi:id="_0GtNGgF0Ed2pvORyOKakkw" key="addedInVersion" value="16"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_zRHowgF0Ed2pvORyOKakkw" name="base_Package" association="_zRHoygF0Ed2pvORyOKakkw">
+        <eAnnotations xmi:id="_zRHowwF0Ed2pvORyOKakkw" source="uml2.extensions">
+          <details xmi:id="_0GtNGwF0Ed2pvORyOKakkw" key="addedInVersion" value="16"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_zRHoxAF0Ed2pvORyOKakkw">
+        <eAnnotations xmi:id="_zRHoxQF0Ed2pvORyOKakkw" source="uml2.extensions">
+          <details xmi:id="_zRHoxgF0Ed2pvORyOKakkw" key="addedInVersion" value="11"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_zRHoxwF0Ed2pvORyOKakkw">
+        <eAnnotations xmi:id="_zRHoyAF0Ed2pvORyOKakkw" source="uml2.extensions">
+          <details xmi:id="_zRHoyQF0Ed2pvORyOKakkw" key="addedInVersion" value="11"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_zRHoygF0Ed2pvORyOKakkw" name="Package_UseCase" memberEnd="_zRHozAF0Ed2pvORyOKakkw _zRHowgF0Ed2pvORyOKakkw">
+      <eAnnotations xmi:id="_zRHoywF0Ed2pvORyOKakkw" source="uml2.extensions">
+        <details xmi:id="_0GtNHAF0Ed2pvORyOKakkw" key="addedInVersion" value="16"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_zRHozAF0Ed2pvORyOKakkw" name="extension_UseCaseModel" type="_zRHowAF0Ed2pvORyOKakkw" aggregation="composite" association="_zRHoygF0Ed2pvORyOKakkw">
+        <eAnnotations xmi:id="_zRHozQF0Ed2pvORyOKakkw" source="uml2.extensions">
+          <details xmi:id="_0GtNHQF0Ed2pvORyOKakkw" key="addedInVersion" value="16"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_LYGBsCuyEeCrDLvPoGZ19A" name="UseCases">
+      <eAnnotations xmi:id="_LYGBsSuyEeCrDLvPoGZ19A" source="uml2.extensions">
+        <details xmi:id="_L6du8CuyEeCrDLvPoGZ19A" key="addedInVersion" value="19"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_LYGBsyuyEeCrDLvPoGZ19A" name="base_Package" association="_LYH24CuyEeCrDLvPoGZ19A">
+        <eAnnotations xmi:id="_LYGBtCuyEeCrDLvPoGZ19A" source="uml2.extensions">
+          <details xmi:id="_L6du8SuyEeCrDLvPoGZ19A" key="addedInVersion" value="19"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_LYGBtiuyEeCrDLvPoGZ19A">
+        <eAnnotations xmi:id="_LYGBtyuyEeCrDLvPoGZ19A" source="uml2.extensions">
+          <details xmi:id="_LYGBuCuyEeCrDLvPoGZ19A" key="addedInVersion" value="53"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_LYGBuSuyEeCrDLvPoGZ19A">
+        <eAnnotations xmi:id="_LYGBuiuyEeCrDLvPoGZ19A" source="uml2.extensions">
+          <details xmi:id="_LYGBuyuyEeCrDLvPoGZ19A" key="addedInVersion" value="53"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_YNEwECuyEeCrDLvPoGZ19A">
+        <eAnnotations xmi:id="_e_2rcCuyEeCrDLvPoGZ19A" source="uml2.extensions">
+          <details xmi:id="_e_2rcSuyEeCrDLvPoGZ19A" key="addedInVersion" value="20"/>
+        </eAnnotations>
+      </icon>
+      <icon xmi:id="_ebqZQCuyEeCrDLvPoGZ19A">
+        <eAnnotations xmi:id="_e_2rciuyEeCrDLvPoGZ19A" source="uml2.extensions">
+          <details xmi:id="_e_2rcyuyEeCrDLvPoGZ19A" key="addedInVersion" value="20"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_LYH24CuyEeCrDLvPoGZ19A" name="Package_UseCases" memberEnd="_LYH24yuyEeCrDLvPoGZ19A _LYGBsyuyEeCrDLvPoGZ19A">
+      <eAnnotations xmi:id="_LYH24SuyEeCrDLvPoGZ19A" source="uml2.extensions">
+        <details xmi:id="_L6du8iuyEeCrDLvPoGZ19A" key="addedInVersion" value="19"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_LYH24yuyEeCrDLvPoGZ19A" name="extension_UseCases" type="_LYGBsCuyEeCrDLvPoGZ19A" aggregation="composite" association="_LYH24CuyEeCrDLvPoGZ19A">
+        <eAnnotations xmi:id="_LYH25CuyEeCrDLvPoGZ19A" source="uml2.extensions">
+          <details xmi:id="_L6du8yuyEeCrDLvPoGZ19A" key="addedInVersion" value="19"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <profileApplication xmi:id="_qGF-k22CEdyYPua_J4ujcA">
+      <eAnnotations xmi:id="_qGF-lG2CEdyYPua_J4ujcA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/ProfileBase.epx#_IfFYQMmBEdqBcN1R6EvWUw?ProfileBase/ProfileBase?"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_xbgF7G2CEdyYPua_J4ujcA" source="uml2.extensions">
+        <details xmi:id="_xbgF7W2CEdyYPua_J4ujcA" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/ProfileBase.epx#_bFUAMdWLEdiy4IqP8whjFA?ProfileBase?"/>
+    </profileApplication>
+  </uml:Profile>
+  <ProfileBase:ExtendedImage xmi:id="_jfk4Upy7EdyP5NfxHvGNQA" data="47494638396119001000F700002623212724222E2D2C2F2E2D312E2D302F2E31302F3231303232313232323332323434343435353535353535363536363536373636363637373A383737383838393A393A3B3A3B3B3D3B393A3B3C3B3B3C3A3C3D3B3D3E3C3E3F43403F43413F3D3F403F41433F42434341404043454144454245474745454A4745424648434648434748434749474C4E4F4E4D484D504B50534C52554D53574D54574E54574E54594F565A56535250585C51585C525A5D5B5A59555D615962675963695A63685B64695B656A5B646B5C656B5C656C5D676C5D686E5E686E5F696F5F6A71656463606A70616C72636E74636F7765707765717866727968747A68747C69757C69767E6A777E6B787F6B78806B79826C79806C79816D7A826C7A836D7B836E7C846F7C846F7E89707E86707F8671808872808871808B73828A74838B75848C75848D75858E76858E7585907787907787927788937888917989927889947B8D997F93A08381808F8E8D8295A18396A38599A68699A7869AA892A9B994ABBB94ACBC95ADBD96AEBEC0C1C2C1C2C3CACBCBCFD0D0D0D1D1D2D2D2FDFDFDFEFEFEFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F9040900008A002C00000000190010000008FE006F78F840B020C13B8914295CC870E1883371224A8C5344C9A1861815123050A0A3C702030EB8D841B2A4C91D76146190F2C584972F3063C2DCC245664C26270C8D7063C3090839408396A0504142041E418196D13068279000489AC498DA42449D3E8102F9A9B22069190B4DDD0401B044CB91B347382469C3470F1D234FC404FDDA744D072816DC2495D323020712027EECA53BC20A183962AEECB540262882C16077EE959346CD0A2949C76448C3456964BD41713CD8E060018CA421124050D0400761D0683264F993F5CF1B066CA8D4D8433B10A02E093E07CD21C44C1E3C707C4C118325039139C7C3C860223CE890192658BC289274C88B142A681C44A18B62820204E8D3AB5FBFFEC220448506C99F4FBFBE7D41840202003B" usageHint="Icon" imageName="Function Group - icon.gif" base_Image="_jfexvJy7EdyP5NfxHvGNQA"/>
+  <ProfileBase:ExtendedImage xmi:id="_jfk4UJy7EdyP5NfxHvGNQA" data="4749463839614D003200F700002927252B29282D2B2B302F2F32323133323233333333333234333336333234343434353535353535363636363736373736373837373837383837383938393938393A393A3B383A3A3A3B3C3B3C3D3B3C3E3B3D3E3B3D3F3B3E3F3C3D3E3C3E3F413F3D3C3E403D3F413D3F403E40413D40423E40423E41423F42433F424540434540434441444641454742464843474943484A44484A45494B45494C464A4D464B4D464B4E4B49494B4B4A4E4C4A4E4D4B474C50484D50484D51494E50494E51494E524A4F524A50534F52534B50544B51544B51554C51554C52554D52554E52544D53564D53574C53564E54574E55584E55594F565A51555759575650565A50575A50575B51585B51585C52595E535A5E525A5F535B5F545B5F5B59585D5B5A61605E535B60555D61555D63565E62565E63575F64585E615760655860655961665A62675A63685B64695A646A5B646B5C656A5C666B5C676D5D676C5E686D5E686F5F6A6F5F6A71716F6E606B70616B71616C72626C72626D73616C74626D74636E74636E75626E76636F77646F7564707765717764717966717866727866727967737965727A67737A66737B67747A68747B68757B6D747A69757C6A767D68757E6A777E6B787F807F7E6977806B78806B78816B79836C79806C79816D7A816C79826D7B826D7A826E7B836C7A846D7C856E7C846F7C846F7D856F7D876F7E89707E86707F86707F89707F8871808872808873818972818971808A71818B73818A73828A74828B74838B72828D74848C75848C75848D75858D74848F74848E76868F77868F7585907586907787907788937888917989927889947888947A8A94798B967A8B977C8C947D8C947D8F9B7E909C7F919E7F929E83828082909886939A87939B80929F9E9C9B8193A08194A18295A28296A38397A4869AA78F9AA0899EAD8BA0AE8CA1B08DA3B18DA3B28FA5B490A7B691A8B792A9B993AABA93ABBA94ABBB94ACBC96AEBEA3A2A2ADACABA8AEB2BFC0C1C7C5C5C4C5C6C6C7C8CACBCCCECCCCCFD0D1D0D0D1D2D2D3DCDCDCEFEFEFF0EFEFFDFDFDFEFEFEFFFFFF21F904090000FF002C000000004D0032000008FE00F1E41848B0A0C1830807BEFBC7B0A1C38710234A9C9803D2AD8B18336ADCC8510BB68920438A6CA8C3D6B1932853AA5CC932CDC7913063322CC9B2A6CD946930D5AB87AF9FCC9F1269DE1CBA32CD196AD4E2F903CAD4A150A2508FA5D1725269D3AB4FA30E9D5A75E955A6090A204060A0ACD9B368D3A21D60C083871B53E2CA9D4BB7AEDDBB53BCD86B088210AABF80030B1E4CB8B0E1C388030F9147D2A4D6C79023A394C278A66395AB4649DECCF9981277F7EEE9CB7AB28C0A174C3AABD6EA4392B56FF3483F7125AE9DB00BAB511ADBF50A162F63B98FF1E873CC59ECCB271BB06BC75C442CCEC4F814F9F0E04106142630387840E309A4CEC38BFE1F57F9001AF376138249BE254382965FE1D69D3FBF4E9AAA2214C400931CDE386954774423CE04B548A64607E6CDA7A082E854520131B840D6DF782A996182028DA022D91D0B76D821049A3D36216927B171854A93E4A1E28A2CAEB8C803EA7828E379E364202171FE5D660A013C0600008F319428C49044164924190F7433E38CC90C70A378241E63E26662F490CE921D76234264232287D21A12707649059B6079DE399B84500697385298D22E0A44614A675D4C80C42CD92CC7E0368ECC608116CFB109A597B63C70D207216E06CC224BBC208003189850C20611485001149F80D76656AC5090D20899AA46C031C4F0028B2CB810739205AF683A284AFFA660B0D2099E745641A02C117380AB399EB4CA07359DC0CA662F343294262870D6E5498ADC04886457B001551B546CB66C702AD191845641E8C1DFA65E0677C90A906130EC93BD627B522F0D44664C0182A6ABAE02EA45260A09E8BA199C08A1701687132282BBD924739081C40F3EFCE0840555ACB299267DD4B002C2402C21861E96D474AD5686D0C000106E1C92CB32CC20D3CA2061A8604116AD4215090B12D0104625AD2053322D8C8CC1C3023C189BD2C644C1618115CF60690E2929D070532FB8CC600437572EB90C130BD08112D037FDF1863966CE278D0B69D4A40B04DA743D1F1A8F9C84754D7C6CE18DD9F35DB341B8C44400F77CDC34918870FE0213A5452677CFF703252BF5C145E0E7D5D106DFAF12A5890D88B7838EA72B053341E4ED14B108E3F20E65C704E4DCBDCD0C3681F240E870831381326AF71D15073B6413E38CE8CC02830ACDDEA4810DA994B3E43ABEEC70C2B3AD37AE55272E40F002167E94224C31C39022C7162D48E044A243754205062164510827BE40DF8A2051C4E0C0119AA8B47654A314A246154708418415700072CA66B6044206164808518413664044BF58B23E75197025053CA00239378F1CECC113108CA0042748C10A5AF08218CCA00465D0A66980010C5FC0C1094648C2129AF084284CA10A57C8C211EECD380DD9073C16484395C09021326C860E77C8C31EFAF08740200CA21087C8C36ACCA321FCA0C73C96C8C4263AF189508CA214A7484527E62320003B" usageHint="ShapeImage" imageName="Function Group - shape.gif" base_Image="_jfexv5y7EdyP5NfxHvGNQA"/>
+  <ProfileBase:ExtendedImage xmi:id="_jfeyDpy7EdyP5NfxHvGNQA" data="47494638396113001000E600002F2E2D2F2F2E2F2F2F36322F3030303131313233333733303334353536373835323A36343A37343B37343C38353B38383A39383B3938383A3C3D3D3C3F3F3F433E3C423F3D413F3F45413E3B3E403D41434341404341414442424544444844424845434945434A46434846454B47454B4846454A4C464B4D484A4B494B4C494B4D4A4C4D53504E4E51534C52554F53554D54564E55584F56595352505552505053545C595652575A555A5F5E686D6564636A68676E6B68706C6A706D6B606B70626C7264707665707765717769757C7F7D7C807D7B6B7880798992878483888583908E8CBDBBBBC6C5C3D8D7D7DCDBDAE8E7E7F1F1F1F8F7F7F8F8F8F9F9F9FFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90409000055002C00000000130010000008D100A9340041B0A0C18325A8B0C860A0A1C3870F3568A01142400C173032667421A3A34700094284289083C288932727204172A4458D1B27428ECCE1214A959B5238AC24A283C986982249D674D2C3070F052850DCD831E5A74CA14E9A1CB041D58683144C9D06CDB1A24384014FA88815916246910B4067AE147200835B0C0B5400999B96E45A064A96E8FDF0622592BA39EE42B9594544DF9580570661602489E30A87FF3E0D8C640884079831E3F09B16418E1FA0438B0E6D22A40509040AA85ECD7A75800C34A8903848DB20092A0101003B" usageHint="Icon" imageName="Application - icon.gif" base_Image="_jfex0Jy7EdyP5NfxHvGNQA"/>
+  <ProfileBase:ExtendedImage xmi:id="_jfeyEZy7EdyP5NfxHvGNQA" data="4749463839613B003200E600002B2A292C2A292C2B2A2F2F2E30302F31313031323232333335373735373836383837393A3A3838393A3B3C3A393D3C3B3E3C3B3E3D3B393D3E3A3D3F403E3D403F3D403E3E403F3E43413F3B3E403F444643414143424143434241444649474643484B524E4C54504E55514F4D4F504E50514E51524F51525753515654535054565154565A56545B57555C5856545B5F555B5F615E5B545C60555D61585F635760645862675A64685B64696865636A66646B67656C686674716F606B70616B71636E746A777E7A77757A7776827F7E6D7A82707F8675858D76858E77868F7787907888917989928481808583818784828986858987858A87868B89878D8B898E8B8A8E8C8A8F8C8B9896959F9D9B9F9D9C9F9E9DA7A5A4A9A7A6ADABAAB1AFAEB1B0AFB2B1B0B3B2B1B9B7B6BDBCBBBEBCBBBEBDBCC0BFBEC2C0C0C3C2C2C4C3C2C8C7C6C9C8C7CCCBC9CDCCCBCECDCDCFCECED0CFCED4D3D2D5D4D3D5D4D4D6D5D5E3E3E2F4F4F4F7F6F6F8F7F7FFFFFF00000000000000000000000000000021F9040900007A002C000000003B0032000008FE00F5E8A163258AC18308132A5CC8B0A1422B7004EA09F30081C58B18336ADCC8B123470B61F4BCB9904183C9932853AA5CC9B225CB0C11E8B051E0B2A6CD9B2D135C918200A7CF9F2E1148E1791204000148932A5DCAB4A953A70104A0144A54C3020F49B26ADDCAB5ABD7AF6093DC3070926A4F0D07643059CBB6ADDBB770E3CA65128440D9A167D3CEDDCBB76FDDBB55F5B2C551A3B0E1C3880DFFE82BF7AF49B32605AFDD80458BE5CB98336B8152626F1123A0431B51B2D6B106C868D5B2E58047A2EBD7AEEB749EEB2085EDDB158E94B6FB186F64D56B59C31E2E51F65E0AB03FE8A6CBFBB4EFD46D85131F6E7C2EF2D7CA7703CE0B9C89F4E9AFABFECBBDEE3A3BF3EDBFA3B7061F7EF6F8E4CB4DA396EC7D3DFBE2EEE39297685EFE73FADF49E44513041658600F15ACA0E0822BA800C45AFB09D45F73F37517A040426471C6861C76E8E1196438510384F069D75B6016DA27D110658CE0C28B30C628230F5B8CC844847A4C881E74ABA928D01066E8709F4076EC502389D8C547E17F29C206A490431679E48D259E772277D171F1C5965CC610E4907A4869238E3A5E991E5B34C0A0E69A3074F06594468E59A57F28F275C29BF789B9160318F4E9A7034AEE485F5C2794A1431E8826AAA8A26EC4B916124A2C21A9A4A499E85C9D7B9D30060A9C76EAE9A7281031E55E746299A91C604A34EA5CA59E39D709F96DB4C0C2ACB4D66AEB13AB36B624A6AFC621C21DC0062BACB06B38CA57AB3CF62A02987A1EBBABA9CA326B2CA9CFBA2AD709BE4A9B6B5CC80E0A17B6CBC2B92D5CDD764768B6E2DA48ADA0E67E8B6E9ED3B25A6DB2D7BECB5EB3EB9A49EFB921E4E0EFBF00074CA3BAF2B2CB97095DA4A1C6C20C37DC701A684C41B0AE06EF4503091867ACF1C61AFBE0D7BCDE322672BE97423BF2C905EB1B32CA2C5B3A5F012DC7EC561003EC38810D2FCCA0F3CE3CF7ECF3CF4007DDC054CF4576C0D14827ADF4D24C37EDB404445741135054579D001B73445052D55CDF94410571E801C6051E956DF6D91B412086446F50E1D0DB70C79D101573081410003B" usageHint="ShapeImage" imageName="Application - shape.gif" base_Image="_jfex05y7EdyP5NfxHvGNQA"/>
+  <ProfileBase:ExtendedImage xmi:id="_jfeyEJy7EdyP5NfxHvGNQA" data="47494638396115001000F70000221C18231C182A201C2A211C2D221E332A143E33183C331F362722322823352A253C2F29493A12483A16422F29432F29483E26493F2645352F463F30563E365B481152441950441C67520F66561C66561D6A581B7C64117A63157D65157F67147E67164B41224A40254941264A40264B41274A402A5E51264A4738504730504B375D433A544F38514A3C514A3D56513754513B5B523D5D583C62463D76672A7A652E7A642F7463305654425957455E574958584B59594C5A5B4D685F4A5E635C6264556963567D70527F73555F64636D746D6A74778C6F0B8F710A97770A806712846B168D7210856E22807354A38008A58208A58308B28C06BA9206BA9306BC9406BD9506BB940DA58712AC8A13AC8A14B49117B1931FA78A28BC9D2ABA9F2DAA923CB59E36C19705C79D05C89E05D0A304DAAB02DCAD02DFAF02E3B302EAB801EEBB00EFBB00F3BF00DCB526D6B22ED7B22EF6C100F7C200F7C201F8C300F3C20EE9C235E8C237E6C23D9280449A8F6EDEC25BE4C246D7C175718089788994798A967B8C988498A5CDC196C7C6C6C9C8C8CAC9C9CCCBCBCFCECED2D2D2F9F9F9FAFAFAFBFBFBFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F9040900008D002C00000000150010000008FE0075A4184830450B458D122A5CD828859A3810239230C4B0E281061833363010C387C78F1F832C3251068DC99328D15CC9A2454B16342512A58843A7A6CD9B746CAC984121411B118466E2A463A78F4D1B080610702004680A33272CD4BC33288F870E4F720A0810C0C110A76B2E2C8172A4C98622800219A161430000005E9DB2298064CC1430585EF02082824B5BAE0FBE061543470A153A78F86088A2A7429A1A0B142890E004ACCD33646E74A9B3470E832D5EE0C079E3C6294D3A5F58F4C031620E9D302A76C00861D3744D197E04FDF9C1814E8E3FBA8124A969BB26930C20AAD854A2E18395DA845C448040BDBAF5EBD427106274A890F7EFE0C3047F471410003B" usageHint="Icon" imageName="Use Case Architecture - icon.gif" base_Image="_jfex3py7EdyP5NfxHvGNQA"/>
+  <ProfileBase:ExtendedImage xmi:id="_jfeyD5y7EdyP5NfxHvGNQA" data="47494638396143003200F700003A2F253E37213B36263F3C31483A124F3F1142381C4E3D1D463D21433C27453E254239244D3B24483E204C362F4D372F453E29433E2E48392F533F2C503C2A473A33453834463A35503830513931503831533A32553B33573C34563C34593D355B3F364C401E5141115242115F4C105C491053461D5C4D1C614E0F67520F6A550E6F580E785F0D68551767571E6D5A19705B12725E197C630C7A65177D651477631E7C671A4941254C422349422A4E472A4D462F49432D554521564A21534B2E594F2A5D51234641314A452F4E49334F4D3D4F49305F41395E4138574E3955523E5B523B59503A5C533C58543E6E5E2262433A4C43405755415252445D55405F56405957425E5A435B59475E5D4C5658545B5E54665E47645C46625C445E60546D65506A695162665E7171595E6460656A61656C676A6F66666E6E636C6E69706D75706570776F7973666D75716A757A757E77876B0B8D710E8E710B91730A93750A95750A95770D9C7C0B846A12896D10896F148F74168C741DA07F09895C4FA26B5DA56D5EA16B5C807D79C37F6E9F8216AE8907A68308A48108AA860AAC890BB38D07B18B07B58F07B79006B99206BE9506BB9406A88916B391149A842CAC9124A58E3CBCA13FC59B06C69C05C09805CEA204CBA004D4A703D1A404D7A903DAAB03D9AB03DDAE02DBAC03E1B102E0B002E2B202E4B302E7B501E5B401E9B701EBB901ECB901EEBB00EFBC00ECBA05F2BE00F7C201F6C101F5C204F8C300F4C20CF4C209EFC21EF2C214F0C21BEEC220EDC226ECC22AE8C236EAC22FE7C23C8B867BC1A84DC78270C88270CC8573DC8F7BDB8E7BD48A77DF917DE1927EDFC259E5C244E2C24AE0C254DAC062DBC161D8C06ADBC167D6C175D8C16F707D82707F8775828672828B75848E7987887687917989917A8B967B8C957E919D88858189968FA3A09D8295A28699A7899CA6879CA98A9FAD8CA2B190A6B491A8B793AABA95ACBC96AEBEB0AEACE59480EB9883EE9A85E99782D3C183D4C180D0C18BCFC193CEC195C2C1C1CCCBCBCECECED6D5D5D1D0D0DCDCDCE0DFDFE9E8E8FFFFFF21F904090000FF002C00000000430032000008FE00DB2C1948B0A0C18306DBFD5BC8B0A1C3871023325CE28995C58B18336ABC88279CC48F2025365945ABA4C99328539A3CE431A44B972355CA9C79E8DBBE7DFE5EEA841873A6CF938706DDBBD76FA751863D7FFE0C3AB4E851A34995D2144AF4A9D105054468DDCAB5ABD7AD0472306152858BD9B368D3AA5D8B1618C31D9948C99D4BB7AEDDBB78F3EAAD0BA9CB445652030B1E5CD294DF854B00135ECC18A5A926FAF4F54BDCB8322D55AE326BDEEC2AA5A92443F151B6CCF8C084D3A8515300C0CC31E87BA2159326CCE01DBCDBB86F17432261D6C9CFA147CF1E5C3B776E6348E255786512386CE1C3033318E6A1BA750F7F8E61D0A001C0B2C2AF63FE472F19AB965206C808A95F4F48183162C8DE5D98063EB86CD2BAA2D9BB757E1894FF000618887CD0D4F7DC7D8CD9C20C3DD2F822DD30474428E184035E50202DCE8977920D3EF8A6942FD2D0C38C2DC40D03C28928A658E1851942F7C436E684E1C84CB828634F34BA9CB44A279964D2092A334DD7C1904416090881066A48CB2A43B0C3CE3572C8B48B3CBFC462122636DC308414596C210511099870C729284DB7C19968A679A485494217C236E78C3193955736B00537EA38A9A793E85063040C274D87C1A08416BA268BE141474B0C0624129817EBEC29E99EE04C621203C23CA0E9A69C0A82248689CA86481D321450871FB47C42C2AAACB60A8336FF93C6CACE38015C2A8C03B8E6AAABA76C826A9F49912C6247098B3C428B2CA824ABECB28C0C10A9AC7B66D382AD9C56FB00AF88FE7AD2260408368B02699C036D35571442272DD365A0EEBAEC1EDAE67DA794104A1D329D7B92223E1851C41766A05186161120C00727650EC3C1C10827ECAEAF079A240A0A2531426F4AB3D8838B4A75D0A18921865872C9262AA834DD0724976CF28AEF9A94C2498BD0A1522CF37C771224719C244D8E8CD891127AC5F4ECF3CFEE24D36B8B8AB190522364AAD40C7D2589B2F249F57818072428F55081055867AD35D65164DB3063BBD4830B2C23A0540B3D27A1907449B93CE3CCDB70C70D772F2937168B3C3D7476922FFED19C144B0196116DD90AC1D07D9232BCA0344AC88D093E182CACB422CB1C33E62255CB90B762AF528EFFF4090D412890C3103C0820800B89E85DEF2331E010000443E4A0000E2FA0CA79A83F6D82C014DD94F3AC93EB888386102794A2921C0988E14D9E7BA6230E1B09E061FC4C9DAB640B16BF434B0E1029F50107B47AAEE346253E559F1202E04B8A8D1E27796245FA7B669109F5B8CF64023AF0B363CE198A9C24CA0FF973D20E54413F6DCD8412671017B4B8710549504C07D6C89EA4D4410D1D784826E64B492A12E1032294E10DD8E00637AE81862924A0069B90492AF680002790A11ADAE08636AAA10625DC800F042C5FFD94728A45F8410F337AA0811C12D189C074221274C8C30CF24087447C2230191CCF78A228C5E1B44813A0C8A216B7C8C52E7AF18B600C23171D111E6080010C57A0821AD7C8C636BAF18D708CA31CD9B886D030241F43C9A31EF7C8C73EFAF18F80F4233EEE18C8421AF290851CE442F8818F463AF291908CA4242749C94A4A521F0101003B" usageHint="ShapeImage" imageName="Use Case Architecture - shape.gif" base_Image="_jfex4Zy7EdyP5NfxHvGNQA"/>
+  <ProfileBase:ExtendedImage xmi:id="_jfk4VJy7EdyP5NfxHvGNQA" data="47494638396115001000F70000242722372B24322D262D332B2F332B2D342D30322B32342B34342D323630373B30373B31353932383932393A333B3E333A3B343C3E363D3E363E3F374B35284E382B543A2C493E32403F3A3741373940333E42363B42393E40383F41394240374741374D413440413940413A414A3B434A3F4C493C4E4A3E6344336A47356B4735724E3A754E39464740474F404B4A454652434D53464956474C56454D56454F544C4C5D495052425352425752425953435954435A534452534C5857524F604E50634F55644E55644F516953566954596B53596C545F60595E675C5968585B6D585E785F64635F646B596C6D5E667B62797D687379739863479763489364498D6B5289765B8A785EA96E4FAE7151B07251937D60C27C586986686887696D8B6B6D8D6D6F8C6C719270769473779B77BE9F79D98A61EC96697FA780979B8081A88182A98183A9818DAF8687B18788B18888B2888AB4898CB68B8DB98E8FBB8F91BD9192BF91A4A489BBBD9BA4BAA3D1AC82D6AF85D9B28798C79899C8989BC99B9ACA9A9CC99CA0C2A0B8C3B7F2C695C3C3A2D1D3AEDEDDB6C7C6C6C9C8C8CAC9C9CCCBCBCFCECED2D2D2F6F5C9F9F8CCF9F9F9FAFAFAFBFBFBFFFFFF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002C00000000150010000008FE007DB41848B0C50B4893122A5C38A9851D3F10237A50C4B02282050A326A3CD0E388C78F1F99441AC1468EC99328C5080912A4C81A39221AB5F003A8A64D3564720E5991254B0000733A209A6913C61740499C4081D284CA99335804041D4AF30D813D57A22029F4A82B080A5ACE84984A140E0E42658010B973E890A12A665870192B94E89B363712B85922A3468901285448114B96268D1D3A789CF0026890111B152CA49872A1301D1384327F1014280F0934051888FE51A7AE9F2E5B32EB99F1A766180D061C754D33C6B40B3E99AD80B1599383EC47789ED48DB32187F1077D7803CA10A3B91240425F4468409DBA8409D8B13B80C01D3B064492160A251A4FBEBC79F28C0202003B" usageHint="Icon" imageName="Business Area - icon.gif" base_Image="_jfex7Jy7EdyP5NfxHvGNQA"/>
+  <ProfileBase:ExtendedImage xmi:id="_jfk4U5y7EdyP5NfxHvGNQA" data="47494638396143003200F700002E2E27372C2433352B32362F3931293B372D373B31373D333A3B32393A333C3B313C3B32393D333B3D33393E333A3E353D3F344231284432284E3629573C2D5C3F2F3B42353A41343D43373F41363A41383B42393942383F48393E4A3E40413A45463E414A3C424C3C4E4B3D4C4B3D4F4E3F524437514A3D59493948503F624232734C38724C38434D40434D414E4F484152424550434A51424853454A57464E59474F50494D5A4A4D5E4B4F5F4C5253435A54445F584651524B52534C52534D55564F525D49515E4A5657505759525B5D55595C555D5E57655D4A685D4A52624D54604C54634E50644F566651576A53586B535B6F575D73596A604C71654F64665F6D6F5E746751776952796A537868547A6F577E6E556271586B7067627E62657E61727361767A66767B677F796572726E767F777F7D7B84573F885A4298634792654A9A64488B795EA0684AA46B4DA76D4EAD7051AD7656B37352BB7956BF7B57B67B598F7D60867F69C47E59C57E596381646583666683676786696B886869886A6A896B6D8D6E7085677D826D7C857D739071749272739573759673769575779B77779A77769975789977779B787A997A7B9D797A9E7A7C9F7A7AA07B7DA17B7EA47E8F806280856F9A82649D8566838871868B73888D758B917892927A95967DAC8F6DA9906EB29471B99974BD9C7781A67FC8805ACE845DD3875FDB8B62DF8E64C29F79E69266EA9468EC9669C1A37CC6A37CC6A47DC9A67E8686828D968E9E9E849F9F8480A78080A88182A88081A98286AC8386AD8489B08789B18888B1888AB3898AB48A8DB78C8CB78C8DB88D8DB98D8DB98E8EBB8F90BA8E91BE9192BF92A2A09FAFAEADCEA980D6B085E0B88BEABF9093C09294C29496C59697C69795C49598C79899C9999ACA9A9AC99A9CC99B9EC99EA4C7A3A6C7A6A1C8A0A2C8A2A9C6A9ACC5ABAFC5AFB2C4B1B1C4B0B7C3B6B8C3B7EDC292F0C494F2C695D5D5AFD7D8B2DDDCB5DFE0B8E2E2BAE6E6BDE9E8BFC2C1C1CCCBCBCECECED1D0D0D5D5D5D7D6D6D9D9D9E0DFDFEDECC2F7F6CAF8F7CBF9F8CCE9E8E8FFFFFF21F904090000FF002C00000000430032000008FE00CBF41848B0A0C183069BFD5BC8B0A1C387102332ECA14B9AC58B18336ABC088699C48F2025FA5896ADA4C99328539AFCE331A44B972355CA9CF98756BD7AFE5EEA841873A6CF937FCEC893976FA751863D7FFE0C3AB4E851A34995D2144AF4A9D104172C68DDCAB5ABD7AD063ED8B031E488D9B368D3AA5D8B961643109586C99D4BB7AEDDBB78F3EAADCBA8C8446952030B1E5CB298DF853D00135ECC1865B11FF6ECE54BDC9871140598336B5600A097CA622F86CEA35C99709038AD52AB5E1D0105AF94A045932E2D38489D57B873EB96E0CAB5E3D0F2462BA61DD8B6EEE3AF24A44943C0D7C9D8C1679716E4A285F5EBD83D64338E3CF79B3770D2FE2C790E5C38F16C7C3EC55BCFBE3DBC1BDCBBEBA633DE2474F34AF984608001874A3EB7F423E08004F6B3CE03B7C9375F7D8595279D4AD40C720934E944230B02C998B44D38660458E087EC98A0E082E4C9369C4C5288A2CE8A2CEA004C37E498134E1F1E7E58603B288C881B7D254677624AC790C0E290B11831CE37250168A38DEE0450C193A874C7A37D0EFE88921F770C39A4012729B9648178D8A18A2AA7A8900A72533668A24F5F68A2258B0D5C63121FB67C492019721C37812BC7A599CD7D0FA284C8166FAAF38C0C5DD669673F61AC81DC2A14F4C9E09F55FA54CD03855E1149A28B8E214382C7B9A1068954AEE913320B68094B1728F1610528FFB0C62AAB2793C4979B1E2C48DA237E334D638D014864D2460939C879D22E8004A2ACB2852C1B0820DB819ADB9EBA96EA6360B8EC110831527D538E49BEE8A24B0A6EE461AEB968CC81E6A4805A5912328BC42BEF228CD402C9BCB9A8144E38269972811202A8B0C2C003B32125BB95AA64CA095834EC70C35A389C44132A91836436C1D05092AD0AFAD9AE4C353853A8963B00A3D239DA948441351B4BDB31C2A6A2444D06230F190D062A6D634E49506C5A520E05042DF4D0442BB16BA0D920C245CD2C86E285372975334E36D374705235D734F2C8D65C77FDC835D7B06C2DAF2705310BD32BF2D08B38509F240E38253522054A1C8861F7DD788B71036CFE099F740D0468AB830E042571E353082499B4C13E76B2A3F1D156369245E0A34421D5244F28A3B9321A306E673B33409E9210B1048E44BE523D21C2EA220CE0B99DEEC430F683D82010783A0C34B6F8A202BEE3823094C65CD22357044ECA13BABFBE682730047FED494CB012F8149624CF7B3F9C18A2E6F326D91E380295EDBEE82687CC7E222554045E8A13E12B6F23268A886E9213A5044E0525E1EBC3CFFEFCF74F48FCF2CBC6350E3082021AF080067440693CA081063AF0811A7004DF62860D631CE38218CC200683719EC1002A12BF08A1084748C2129AF084284C210913511E5A54A10A4400820C6748C31ADAF08638CCA10E695806D130841E432D09A2108748C4221AF1884834E23C7E98C4263AF1894D5CE242F0318F2A5AF18A58CCA216B7C8C52E6AF11E0101003B" usageHint="ShapeImage" imageName="Business Area - shape.gif" base_Image="_jfex75y7EdyP5NfxHvGNQA"/>
+  <ProfileBase:ExtendedImage xmi:id="_jfk4UZy7EdyP5NfxHvGNQA" data="47494638396113001000F7000024211E2723212724222724232824222825232826242926252927252A26242A27252927262B28252928262A28262B28262A28272E2A272F2A272A29282B29282C2A292F2B282C2B2A2C2B2B2D2B2B2D2C2C2D2D2D2E2C2C2E2D2C2E2D2D2F2E2E2F2F2F312C29312D2B322D2B332F2C342F2C31302F3130303231313232313333333735333534353436363536363437363935333B37343B38363B38373D39363E39373537383738393D3B393C3B3A3E3C3B433F3D43413F3D3F403E40424342424442404344454745444845434945434946434946444A47444B47454B48464949494B4948484B4D494C4E4A4C4E54514F4C4F505955525B5754505458535A5E535B5E545C5F5D5B5A565E625A6267606B70646F75646F7665717767737967737A68747C69757C7A78767B797782807F6C798172808975848C75858D77868F788891798992848281A19F9EA3A1A0A7A5A4B4B3B2B6B4B3B6B5B4B8B7B7C1C0BFC7C5C4C7C6C5D0CFCED6D6D5D7D7D6DDDDDCDEDDDDE4E4E3E7E6E6EBEBEBFCFCFCFDFDFDFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90409000081002C00000000130010000008FE00F3181942B0A0C12149F6045A1868C7020F1A224A948861C318400C895CA012A063800114201428200000031972166AECB0808283973061367871844FA0951D582830C01301870C30073CC03107A78A09274C28559AA2690A142D886874D14185072A429668CDA1064D1025534048BD70A3AA872A6CFADCB933A30B17206FA088D558B6C755326E2C94083142040F3A72C796F5E1C1CA8F1531ECD4692342C71527733F1CE840D8CB1A2C126AD4A011014C192D62E7E02040D983E52C30FCF88923E2CC9A306203F179D26280E9355948489112A5F5EBD881E0C848603ACD9626C89B303193E60BF0407FC4D8A840BDBAF50A1476300CA407C9C1EF45F0020404003B" usageHint="Icon" imageName="Application Group - icon.gif" base_Image="_jfeyBpy7EdyP5NfxHvGNQA"/>
+  <ProfileBase:ExtendedImage xmi:id="_jfk4VZy7EdyP5NfxHvGNQA" data="4749463839613A003200F7000024211F2521202623222827252927252B28262B29272A29282B29282A29292B2A292C2A292F2A282E2A292C2B2A2F2C292C2C2B2D2C2B2E2C2B2D2D2C2E2D2C2E2E2D2F2E2D2E2E2E2F2E2E2F2F2F302F2E302F2F31302F3030303131303031313132323232323233333435353535353537373C37353C38353537383538383638383738393B3A3938393A383A3B393A3B393B3B3D3A383C3A393F3B393F3C3A383B3C383B3D3A3C3C3A3C3D3A3E3F3C3E3F413D3B413E3C40403F42403F44403E3C41423D42433D42443E42443E43453F444643414042424246424045444347444240434547464640464842484A4749494E4C4A4B4C4C4D4C4C4C4C4D4D4D4E514D4B514F4E53514F494F51484F52494F524A50534A51544C51554E52544D52564D53565856555A56545B575552565952595D545B5F555D61565D61565E62575F63575F645760645860655861655961655961665A63686764626A66646C68666D6A68706D6B716E6C716E6D726F6D606A70636E7467737967737A757371777472817E7D83817F6D7A826F7D85707E8672808872818973828A74838B77868F7787907888917989928481808583828784838785838886848986858987858A87868A88868A88878B89888C89888E8C8B908E8C918F8D92908E93908F93918F9391909492909593929694939996959A98969B99979D9B9A9E9C9BAAA8A7ADABAAB0AEADB3B2B1BDBBBBBEBDBCC0BEBEC1C0BFC2C1C0C7C6C5CAC9C8D3D2D1D4D3D2D4D5D5D6D5D5D7D6D6D8D7D7DCDCDBDEDDDDE1E0E0E3E3E2E4E4E3EDEDECFAFAFAFBFBFBFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F904090000C1002C000000003A0032000008FE008305F3446992C18308132A5CC870922557BD044A9C483198921B25326ADCC8B1A3C78F1A0BD4AA48325828184552AA5CC9B2A5CB972C8DDC2A49315009954272EADCC9B3A74F9F2A65D0A23991D2CD222434285DCAB4A9D3A74E1D041D4A54A0D12220CE30DACAB5ABD7AF60BFEE5191526855AB3745A8E9DA658BDBB770E3CA9DBB65C9800C191AF8A1C43713AC9257D56E7D1301A4E1C38663002319782D230743604A9E2C790812C6691D232092F2A7E7CF3F5512A181B98860469B8B349980A1B5EBD7B063CB866D814B4A22334A9F4EEDE050D8DFC0C162A85104B76ECD9C23F8DE5A460B96E7D0A34B9F4E1D0B0605192E3080C41D1228B4A691FE1751BE55C70814E8D3AB5FCFBEBDFBF42E78046BBC3535793E148050DECFBF88874DF4A1969C6F7D44A052100826A8E0820C36D8A04A25F095597D033252604A5968B0C1861C76E8E187207A688113294518A07D041A98C30AC1B5189C2206942861785B4550E18539B4E0E28E6029B2808C014A70A38A3A3292C8135424A9E4924A7AC123233E02392123428E976211396EB58811B974E9E5975DCAE24358644C61E61451E801E58F4598386595E4E158E49667FD3226584CBCB2CB9E97B8B1A6943452392496731A51E79D5F31E18B44A6F819659B339E0627811010AAA5A155D91996A28C3ACAA69B814E6A610796324267A6887AC5A9408DFE096990FF37929AA5A9984AF4C718B8E62AC60949F4EA6B1C8CAC1A4CAB8F822A69ACA59E2AD11892DCE1ECB3D0DE9107266804BB28AB9E027AAC95A3265BAB4063D0A10A2EE4966B6E1D9D542B2CB19F46EA98A87DC85A2845E1EA42941DE95ADBA9ABC6BE8BECAC8BB0E0C3C0039B4087BD34E1ABEEB5C366FBEA9BFF1669EA2214539CC4C1F7E67B84151C5B01051CFCBABB15BCF2FE763129ABA4ACF2CA72E44B482186C45C08222107B6C6C8119B9C4A293CF7EC33CFA3541B56B1339680431B6C10907358499C32C7D35047FDF42742F7D8EE556D8A2002004B83950420A8F422F6D8642BFC1BD19ADCC092005D7FF5752C1957FD15D1C1ECE0827A01B4EDD5DBDC719FDDAE409E3CD2DD037A77C577C2F90EFD77453314CED5E12599ADB88C24355E440D60B4F10505A57A0D08DC88CBED15DD8C73869508151CD0B9DB8054E1FAEBB0BB4EB5DF9457F483E929D920D5AC60F510C6EFC0070FFC15A277453A45BF4891427A1F24B0BA57820C22FDF4D4536F08ED9096C44A248E748F0707CF3FE9E2F144D12243F8E2BFB87855E6A7E4411A6AC42FFFFCF4D76F3FFD6628507B55B39C9F52085A0BA0000748C002123004106AC45982610B23F4E7819279812816188C5A14003118CCE00D9440C160F0A2159568880847C8104E082420003B" usageHint="ShapeImage" imageName="Application Group - shape.gif" base_Image="_jfeyCZy7EdyP5NfxHvGNQA"/>
+  <ProfileBase:ExtendedImage xmi:id="_yYm2IZ_9EdyefrxMyqadKg" data="47494638396115001000E600001F1A17211C18211C19221D19231E1A241F1B25201C26211C26211D2823202924202924212A25212B26212B26232D28222E2A232D29252F2A242F2B24302C25312D26312D29332E28332E2A342F2835302937322B3B362F3934303935313D39303D3931423E3B433F3B44403745413845413E4A463A4B473B4D493C504C3F4E4A484F4B494F4C49514D4156524457544653504C5B574A5E5A4A5B5755625E50646050686454706D5B75715E696563716E6C7C79767E7B7686836C89856F89866E918E759290769D9A7FA09D81A19F83A29F83A3A084A3A285A8A688AFAD8FB0AEACC7C5A2DAD9B3CCCAC4EEECC2EEEDC3F1F0C5F5F4C8F5F4C9F9F8CCE4E4E4F3F3F3FBFBFBFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90409000057002C00000000150010000008D800AF0814A88381C1830819941858C58A432B396E009948716210211D0626D89880010B1C0D5A881CD942C2918C0211A49830E1C20A904EA6C89CA9E1E4400650A43C19F1B241CC99326BA2BCC2208A4C123D7F02157AD3E814A4308106B529B0E8D1A452A76830E2A1E955901FC28AFDF0802A51A72454D4F0318488DBB73F7A0CB5FA74868501142AE8DD1B20020CAF534038C030208386C388050050E29509001A2F50B87841B9B2091B1B42544D52E4800C0305428B1E6D80438C265444100880E484EBD7B0612F81B0E0CA0E030A72EBDECD3B378F80003B" usageHint="Icon" imageName="System Actor - icon.gif" base_Image="_yYm2IJ_9EdyefrxMyqadKg"/>
+  <ProfileBase:ExtendedImage xmi:id="_y3E60Z_9EdyefrxMyqadKg" data="47494638396143003200F700001F1A17221D19221E1A231E1A231E1B26211E29241F2823202924202925202A25202A25212B26202A26222B26222C27222C27232C27242D28242E29252F2A242E2A252F2A252E2A26302B25332E27302C28332E29332F2A342F2936312B35312C37332C38342C39342C38342E3934303C37333F3B313F3B333C3834413C334743394844394944394A463B4B473B504C40504C41534F42534F43534F445450435550445753455956485A56485D5A4A5F5B4C5C59555D5A57615E4F625F4F635F4F625E54605C5866625266635364615F6E6B59716E5B726F5C6F6C6A7A76627B78647D7A6573706D827F69837F69827F6A807D7C817E7D84816B85826C86836D86836F88856E908D74908D75918E76928F7793907797957B98957A99967C9D9A7F94918F94928F9593909492919794939A9796A09D82A19E83A29F83A3A185A6A387A7A488AEAB8DB1AF90B4B293B7B595BDBB9ABEBB9AA7A5A4C0BE9CC2C09EC5C3A1C6C3A1C7C5A2C8C6A3D1D0ABD2D0ACD3D1ACD6D4AFDAD8B2DCDAB3DCDBB3DEDDB5DFDDB6DFDDB7E2E1B9C8C8C7C9C8C7CBCAC9CCCCCBCDCCCBD1CFCFD7D7D7EDEBC2EFEEC4F1F0C6F5F4C8F9F8CCE8E7E7EAE9E9F1F0F0F9F9F9FFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90409000094002C00000000430032000008FE0029091C48B0E0401417122A5CC8B0A1C38717CA189C487122843883326ADCC8B1A3478F30C6541C5911C2A2472853AA5CC9B2654B192249CA2468D2A5CD9B2E61CEDC49A926CE9F3875F294E9F351921548932A5DCA9429A094422922D941B5AAD5AA3C14092CCA42489AAF60C38A1D1B968220A831295E3842A5ADDBB76D3B1CDA7A12250B34407F9A453BF2C2A09F20E6F6ACFBE86E5E9C7B51469D78C14E081D90234756512430DD94860FDB4CFC68B1C10B7330B8184D9AB48121960763C6ABD92567CF05FD0216CC95756B96AFD332FE8B3375EDDB2D73F7E57DD337E1CCC0550AAF28BB37EDE3B693A35CAE96B84DE3ABA52B3FAB58F767EB2EB1FEDB8D2E9DFAEED997C76B4F69FE3B7AD5EAD73F6A1F1B7C4BF185C927A74FB079F1E7D9C9C7DF40FE5D07607CEB0D285081E11D989F7CF371D79977F5BDF79B8012C2D69F7D2CE1879C760A52C2E07D0E7E585E86146E68E1715938E2E28B30C628238C218ED8A1833428A0E38E3CF6E8A38F79F0C51C872BE107E14B291248A44A461EB992864AAEE8644E492EB8644A4D4ED9DD70EF45B0C1971B24F04006649669E699689A498005605A50A58857A2949A218AD4A908074EECA1E79E7CF6E9279F019061A7229070E9DC441FE8075C0088F064639182159428848C3A1AE723814501C5A69C4E60C312A0862AEAA8A48A1A00119B4621D3A34C1602840FFFB0C6DAC20BB1D66AEBADB88A7003AC3D904012AB290930829637D5A181A1369990421BC4DEF4870343DE34800829B1F1C3B5D866ABEDB6DC72CB474A8C5490C8792DF901C0146798A1AE175BB4EBEEBBF0C62BAFBC5FA86BC619837800867B2C5901401F5CA8A1440D04176CF0C10827ACB0C146ACA1C6128FCC1044852BE130C02358642C85121C77ECF1C720872CB2C74D649CF1234F94A0A24A313080D21B30C72CF3CC34D76CF3CD32A3144703042EE0B3CF005C91D2195A146DF4D14827ADF4D24C6BA1874A8D2C200625924C62352105E4A0121C6E74EDF5D760872DF6D864BB11C84A74202007414C54D1EC94775C40D00127E0F1D1DD78E7ADF747125DC83D5024614800D1E084176EF842890404003B" usageHint="ShapeImage" imageName="System Actor - shape.gif" base_Image="_y3E60J_9EdyefrxMyqadKg"/>
+  <ProfileBase:ExtendedImage xmi:id="_x9zrgaA0EdyulaIT6qD5AA" data="47494638396115001000F70000231C18231C19241D19251D1A261D1A231F1C2A23202E2C2B382D293A2E29392E2A3E302C3733303733313937353A39373D39363E3A373E3A383F3B393F3F3F4A342D4036314336314D39344E3C36413D3B423D3B423E3C433E3C433F3C433F3D403F3E44403D44403E45403E49403C4A403C5F41394040404040414542404442414A47444B47444E4A474C4A494C4E515251515652505A57555A57565C5957575B5E5C5A585E5B59635F5D69615E68625F6A625F5D64685E64685E64696663616764626966656A666560696F6F6C6B706E6C616A70616A71646D746D71736671797072737673727474747776767F7C7B6D7B84707E8871808A72828B72828C8583818583828184878386878888878A88878D8B8A8F8C8B918F8E9593939693939896969A9897A09E9D8AA0AE92A9B894ABBBA4A2A1ABAAAAACABAAACABABAFAEADB0AEAEB7B6B6B8B7B7B7B8BAB9B8B8BAB9B9BBBABABCBBBBBDBCBCC0BFBFBFC0C0C0C0C0C2C1C1C7C6C6C9C8C8CAC9C9CCCBCBCFCECED2D1D1F9F9F9FAFAFAFBFBFBFFFFFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021F90409000081002C00000000150010000008FC0065B0184890450B3F81122A5C1888051B3A102386D0C3B062030911326A64100387C78F1F7FFC1161468DC99328D5A0D1B163470E3023FAACA073A7A6CD9B77E85C3061A28281097858D051D305E74D3A09060C20B0E046503A450E3CB169C70508154EE82000C0158353A1560A7859B162C3893165C840B18120805BAF4FD74488F3E6CD19370E283C8041478180BF19BED20172A7CB9C9A6184B481C3610E090B904BD0786A330D93201A6C728140648BCD1494EFCC7811658A9124779AF89042E5C8929A1F42D7418144098F2B77B2D418A2A40716D8A1EFC8D152E58B4D315C8ADB8CDDA20387E7D0A34B7FEE010FA03D79B26BDFCE5D3B9F80003B" usageHint="Icon" imageName="Use Case Model - icon.gif" base_Image="_x9zrgKA0EdyulaIT6qD5AA"/>
+  <ProfileBase:ExtendedImage xmi:id="_ym4dsaA0EdyulaIT6qD5AA" data="47494638396143003200F70000362E2A3A302D3532303735343836353D39363E3A373C3A393C3B3B3E3C3B3D3C3B3E3C3C3E3D3D4C362F4D362F4D372F4E3730453833433936473A354539344A3A35483B374B3C36413E3D433F3C413F3F4B3E3A503830513931533A33543A33573C34583D35583E355B3F3642403F44403E45413F49403D5E413862443B66463C4241414242414743404543424245464544444645464646464945424946454C48464747484A484848494A4D4C4B494B4D4B4C4D504744524E4C504E4E53504E55524F4E50524E50534D51525351515151525652505453535153555654545755555855535957575A56545B58565C5856525558565B5E5B59595D59585E5A595F5C5A5E5C5C615D5B605F5E625E5D62605E575C61595F635A61655F666B5B666C5E666C5E686D6363626462616463636663616865636866656966656C686762676B62696E6B69686D6A696E6C6B6E6E6E73706E616A70626C73666E74646E7565707668727869767F6A777E7673717674727373747574747775747977767A79777E7B7A7D7A797F7C7B7F7D7B7E7C7B8F5F529B67599C67599E695B9D685AA06A5BA26B5D807D7C817F7D82807FC5816FCA8371CA8471CB8471CB8472CD8673CD8572DB8E7ADD8F7BE0917DE1927EE2927EE3947F6C78816D7A836D7B856E7C856F7E8772828C74848F7687917889947A8B977B8D987D8F9C7F919E8482818583818483818683828481808784838184878885848987858987868A88878D8B8A8E8C8B8E8E8E918F8E92908F92918F9593929795959694949896959B99999A9A9A9C9A999E9C9B9F9D9DA2A09F8293A08396A38295A18397A58498A58599A7879CA9889DAB8AA0AE8DA3B28EA4B28FA5B490A7B693ABBA93AABA96AEBE94ACBCA4A2A1A6A4A4A7A5A5A8A6A6A9A8A7ABA9A9ABAAA9AEACACB0AFAFB0AEAEB1B0AFB2B0B0B3B2B2B7B5B5B5B4B4B8B7B7B9B7B7B9B8B8BBBABABAB9B9BCBBBBBDBCBCBEBDBDBFBEBEE89681EB9883EE9A85ED9984C0BFBFBDBFC0C1C0C0C0C0C0C2C1C1CCCBCBCECECED1D0D0D5D5D5D7D6D6D9D9D9DFDFDFE0DFDFE9E8E8FFFFFF21F904090000FF002C00000000430032000008FE00F3001948B0A0C18306BDFD5BC8B0A1C3871023320452AD9CC58B18336ABCF86798C48F20251A2157AFA4C99328539A4CE531A44B972355CA9C990A163E7CFE5EEA841873A6CF93A90695ECB7B328C39E3F7F061D6AD428D2A43485D623DA7467810C25B26ADDCAB5AB5603257EFC6872A5ACD9B368D3AA3D1B8BE10C60DDE2CA9D4BB7AEDDBB78F3D2D555656239A880030B2E09AEEF42207F072B5E8C129C917CF9F821664CD9248F09983367A600E024B81E25ED4DAE4C7903A677A853A3CE14C282C9CFA147935EBCA19D6AD5ACDDB9AE07BB9EE8C4B3156FA0A4A2B8711585323D78D020006FD0BE6507176CFA91F5EB8F265DB2B4095E8478BD7FFE4F172E4984F9F3E811BDFB1E5EFA78A81B247D984FBF7EA2F5E0A18B4FE947CABCF7296D304907041668E021F8B5079C496274624C10DB28364F38DB68F34D3A336D1009041C76E82182ECE9E75E3A2B4C33CD286D04964D1F392C80431042E8B082064C301220240DE4A8E38E862428E28225B950CC312F04039536340CF109332636394D34C5E0A1C12A276D0089035866A9658F21C60664494408F00B60453CE3E4994D4A63C7982569C8C19B70C609627E5EA2740B2B7998C0CA2CF578F3C49F80069A452868163A4D32099864A5078C36EAE87D5D4607E42C80B88101208ED4A30E369C76EA692D08188A66286FA8D3662420A4AAEAAAEA45BA1F4AFFD71410183D1A74128DA8A5AC814195928CE0EBAFC02AE2639D28C583012F8D04B68E1F1A20B1051D5F788207183AB020C62D280988C2B6DC76BBC8B092A2A44E06253962A360804C110B1A7D30824B2E53A8145F0AF4D66BEFB7AEBAD7C249AD081218364FA8A48ABFD96A42C9C108277C09B8AFD693464AAA7803D53933CC548691279D7041051C77EC31C712D019AE49A6A6140F5426B0E3530D249964CE3930C72C33CCE888338F82C119C1CD4FEBECBB18CEA4B1B10B54D650F1F38F8CFD57CFC081B912483D4A03063454E2CC82050D092CA0C001039CD14B52C2A0710401072C9000093EB051CB4F53FBA40B112FC8718A992646E30C295D2040C539FE2AE1024314A42473AB89D22C33CA1A32D0C2B74A6DCB348F1ACA88DA243145A4248F17D0483E8D3371D82253E32A61408DE64D9272C649D920417A935D7C9D12E829DDD0CCEACE84A1C549E3D8B0BA890CE8C238D249BDC2C9E0863633C71E29D113C3279A9712843C9F03FFD3357D6800051EA2A0820C32A77C52C70E37C822D3357CC0C0C51DA418834C31A680C205036444183DB1805923881B5624A104167DC0D24D52E6F00521CE20852430610C7AF0C5C97C023B00CDA6810EAC0C0423C898F6EC621B18CCA00637C8C10E7AF08320DC202EF4E30A3398C1094B48A10A57C8C216BAF085308CE10AE1101A86DC83820EB4870D7108201D2E641FF61108A2108748C4221AF188484CA211F51110003B" usageHint="ShapeImage" imageName="Use Case Model - shape.gif" base_Image="_ym4dsKA0EdyulaIT6qD5AA"/>
+  <ProfileBase:ExtendedImage xmi:id="_piHMIaXHEdyz4tKiDee1Ug" data="47494638396110001000F70000346ACC9CB6E4D4E2F47496DCECF2FCBCCAEC84A6E45482D4E4EAFCF4FAFCACC2EC84A2DCC4D6F44472D494B2E43C6ECCA4BAECDCE6F4749ADCF4F6FCE4EEFCFCFEFCCCDAF43C6ACCA4B6E4DCE2F4F4F2FCBCCEEC8CA6E45C86D4FCFAFCB4C6EC84A2E4CCD6F49CB2E47C9ADCECEEFC000000010000000000565000001300001000000000240100E50000120000000200650010000000000000000000449E00E60200120000000000180100EE00009000007C00007050010513009110007C0000FF8000FFD900FF4500FF00006D54010513009111007C0000853731E72F308131307C312000202500002015FF0000FF7E60C4A00312EC001212000000080C579400041A003900007EB8003062008815003600007E0040FF0035FF0050FF0000FF7E012A000088000036C0007E00349B00E7B800123600007EFF2000FFE700FF1200FF0000FF98F0FFD57FFF3645FF7E000054C400131200111200000000200C000000000000000000005000001300151000000000660160F7009E00008000027C5401AFE6001212003F0000059FD900EB8B008136007C7E004A8807E30000813C007C7E00A0B4003AE600501200000000B8680062E7E00112180000006CAC0000D500003600007E00906600E5F700120000000000346C0000E700001200C00000F88500F72B00128300007C00180068EE009E9000807C007C7000FF0500FF9100FF7C00FFFF0060FF009EFF0080FF007C6D00670501009100007C00004AE967F42B008083007C7C000090D400E7ED15121200000000C4FF002BFF0083FF007CFFB8000062000015000000000000FF9801FFE800FF1200FF0000344E00642100834C007C00570078F400E88000127C00007C947BE7E8E012124E000000B86DAC6264E8158312007C0040103400E464004E8300007C02207F0002E9004F120000000100970001FF0000FF00007FD4901895E7E93E1212B10000300000000100000000000000008834006464008383007C7CF001002100009300000000000C00660000F7003000000000006AC00065E6006B18007400BF76F03D65AA3E7A4777650021F904010000FF002C00000000100010000708C4002B08AC9020840310201C58F030B061880110224C982000C2000B0D2B7CE0408042810F0A36902060E0C3C0101C1214D84040A086951E4060F42081C0860C151074E8D052004B091E1860F0281001800B0804162001C182030405260824715483409B191C2C98A0A06183060D154C58006282C981073A84D59030438196023F9CAD605380080610486CB87AA101DCA54D69D6A5BBB327CB110C5126D81055E08402053C18C01897A347050A9612E03057600809112756944039A3078320168858D83020003B" usageHint="Icon" imageName="Overview - icon.gif" base_Image="_piHMIKXHEdyz4tKiDee1Ug"/>
+  <ProfileBase:ExtendedImage xmi:id="_qwhgAaXHEdyz4tKiDee1Ug" data="47494638396132003200F700003466CC9CB6E4D4DEF4648EDCB4CAEC4C7AD4ECF2FC84A2DC4472CCACC2ECE4EAF4C4D6F45C86D494AEE4749ADCA4BEECF4FAFC3C6ECCDCE6F4C4D2EC8CAAE4A4BAEC7496DC5482D484A2E44472D4E4EAFCD4DAF4648ADC346ACCA4BAE4D4E2F46C92DCBCCEECF4F6FCB4C6ECCCDAF4648AD494B2E47C9EDCFCFEFC84A6E44476D4E4EEFCA4B6E46C8EDCBCCAEC547ED4F4F2FCB4C2ECCCD6F46486D47C9ADCACBEECFCFAFC446ECCE4E6F4C4D2F45C82D43C6ACCDCE2F49CB2E48CA6E44C76D4ECEEFCFF0013FF0011FF00006D01F005007191003F7C00008519DBE7001A81001D7C005B0011000000001500000000006001800300D90000450000000807549400131A0011000000B808546200131500110000000009840000000000000000007E200000300000F500C077000000180000020000E3000001FF1804FFE700FF1200FF0000FFD0E2FF3C04FF1D00FF5B0000E8710072D5003F3600007E00180000020000000000000000E30100010015000000000066D860F7E79E00128000007C5446AFE6D012121E3F005B059FE800EB7200813F007C00004A0507E300008100007C0000A054003A1300501100000000B8F0006271A0013F190000006C8400000000000000000000906600E5F700120000000000346C0000E700001200C00000F88500F72B00128300007C00180068EE009E9000807C007C7000FF0500FF9100FF7C00FFFF0060FF009EFF0080FF007C6D00680501009100007C00004AE968F42B008083007C7C000090D400E7ED15121200000000C4FF002BFF0083FF007CFFB8000062000015000000000000FF9801FFE800FF1200FF0000344E00642100834C007C00570078F400E88000127C00007C947BE7E8E012124E000000B86DAC6264E8158312007C0004103400E464004E8300007C0320800002E9004F120000000000960001FF0000FF00007F00901800E7E9001212000000040000000100000000000000038834006464008383007C7C0001000000000000000000000000660000F7003000000000046A580065AC006B190074000376F00065AA007A4700650021F904010000FF002C00000000320032000708FF0051081C48B0A041810634281071B0A1C38706217CA8818143810C08326428300343021E10208A6C088187091D08767450996147840C1D5ABAE46042C2C89B28046090A982438311027868E0C14340020A1C10ACFC7140004E874028A800108143020D223554E01001808A06069E165CC060258805369E8AC8D1426509196251D8F030F5458CB47151884850C06B0DBC236D98C800C0025683401604A0E0E300850A13C21AD4D0364200C00F05BFA4C090A0811A0332EAA0810183051D1A5B24E83CD0408A0C372E8BAC90B241C881222A14284041066BDC0B7CECF680D906859709202EF8B1830266193A5E54F8DD104680021C9C0EB491624701B80D8194FF05F13BC18F13926FAE70F0638467100038003968DCFB61813D54D4C83BF7C7FE813C14D0810907099041043110940002EE1964820A084008A107072590418302D51041011F140401063B80701B0A32E8D7D00100A4A862050D55F083767A71B0030605F17020787AE980016604F9A0A28A043644030723E610810A360DD4C00E0300C64201E91994C28F29B2D890020558A957093B6809810E3B2427100C0550E8908F5406D96201AC55B00303787D90D10A03D5C0E64314500940000F19F00301034970E0610FECC00141035000D1037A62D8900F2D10246383203630D00A08E0D8500E7A6A7AD00208A4D79D0F0295D001860B64409D413CE8795F75192CFF502793725D04630F874224829E23BDF01F891DBCA0D7813C0C44010D2311A6A20A23B560A94036AA008102830E7400A9225DF063AE109DA028B411FC600010192589420A348A64C18FE94284410A0369F0920130A8B0C37D143830D2944036FB2C0A1F841B520111903050053A8C54C18F8E3AE4EB403244202C0A930E04EAAA0685F0A3A7071990018E35D08A0288DFA2E0B1C1107D96C003AB89940302AC81886D0D1D704B31B679398401080341505683366660EE08503EF43246192190439F3FB8102F6C877DB9C3AF649AD910017A86F0500F770AC442CD0455D041096D16F06A419C52E974431A14F0006E325A8D82A011C82A90081C9CC0E3402EE8FFB9F4412258C00160046C78368803B026C00F7C1ED437955A1F54810AC5DE2D23BC0519984182038DA042C3024D90810A19FC30FADF0579D034410F847BB6400D486C2E0A2E1217970D15642026B405ECA06641E20100020C0AAA70C27C3829C0DEDA0229001F075116546207148C9893452C44DF310B3F70D0E1761874F01D44B977D04071BAFDD0DBAA064C90C20F05FC459071C88DD4034C3E442FC2082D6074010807C0C0005E10A11610803A060051067AB037FADCAF0316A81CF016508106F8C0070D78800C88C72A10B8444B37A9C10F00508004584F2D1EE84B091BA81C0EAC64002160614344E00219D50C657931400346589507E0E0849309808C54BCD203EDC5850727204C4C6640811A9040001220CA0212900206B4A4033F48C1EB7226100D0811263B0863045E12813086310333A8C016B958A304F86080A643C00F5EC081148C608D6C8408040C60008C3D2520003B" usageHint="ShapeImage" imageName="Overview - shape.gif" base_Image="_qwhgAKXHEdyz4tKiDee1Ug"/>
+  <ProfileBase:ExtendedImage xmi:id="_LYGowCuyEeCrDLvPoGZ19A" base_Image="_LYGBtiuyEeCrDLvPoGZ19A"/>
+  <ProfileBase:ExtendedImage xmi:id="_LYGowSuyEeCrDLvPoGZ19A" base_Image="_LYGBuSuyEeCrDLvPoGZ19A"/>
+  <ProfileBase:ExtendedImage xmi:id="_YNEwESuyEeCrDLvPoGZ19A" data="47494638396118000F00F70000302F2D383432393435383635403F3E2B46493E4847304A4D2D4E522E505434525731595E345E633C5D633F5F623C5E663660643760663A636735676D36666C36676D366A70376B7139747B49444B4D534B55524F515453575E5653535D605E5A59665B5E58654262664D63654561694A60694A646D5F61645F6B61526B6E5F7678656160696664626D6D6C6F6A67776B6862716D6777696D716B6974736D7E736D7F6E73766D76747475707A7775707B7772727C727C796E807376837973867977867B7E817D7B867D77897C3B7B833C7E87756E81767487827C92857F953D828B3E848E408F9941909A41909B41919B41919C42929D7D93847F94867E9586868381848F868C89888F8C8B8496898D908B8F908E80988992918E8782978782988884998D879F8E98979A98988BA69590AD9B92AF9D958FA99F98B5A49DBB96B3A198B6A49AB9A7A5A3A2A6A4A3A7A5A4ABA9A8ABAAA8B8B6B5BAB9B8C0BFBEA1C2AEA6C8B4ACD0BCAED3BEA9A2C1AAA4C3AFA8C9B2ABCDB3ACCDB5AED0B9B2D5BAB3D6B1D7C2B4DAC4B5DCC6B6DDC7D1D0CFD1D1D0D3D2D1DCDCDBE3E3E2EDEDECF2F2F2F4F4F4FBFBFBFCFCFCFDFDFDFFFFFF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002C0000000018000F000008E70021098494488C0A111228407030A2C5184403230E3494020394281833625CB2C0801B4712216DB990D149910A0F4C9468C0C00211260958348AD866024625248EA4F103A827A03E6892783850004E44024F9C44F8F2C7A753A77B6004583410401305679EE6F1B2C3068F1B3266D0088364C5C02B08423805A3C3CC204270E3E2298362C09B47901C6DA8D153CF093B71030B0EF4E2032348853200E2C3E18EE0C781B9E410882586112A9033C3D530708E00329A337788280744E8C76CBA48ACD243D069B86A70CC9448C7C58F3A9AD7F8888337A440456E8208013244CA942C56B41C8A1810003B" usageHint="Icon" imageName="Use Cases - icon.gif" base_Image="_YNEwECuyEeCrDLvPoGZ19A"/>
+  <ProfileBase:ExtendedImage xmi:id="_ebqZQSuyEeCrDLvPoGZ19A" data="47494638396152003200F700001F1A171F1B181F1C19201B18211C19221D1A231E1B211D1B221F1D241F1D21211F23211E25211E2123212722202725212224232823212826222A25222B26252329272A28242D2A26242B2A252E2E232A292E292A2F2F2A302B29322D2A342F2C25302F32322D35312E332E30263232273636293D3E28393A3537313732353934323933373A36363638323D39363A3D363B363A3E3C3A403B39433E3C3D403A3F433C45413E40453E413C422A42442B45472D4B4E2D4C4F2C474A2E4F522F51552F545730555931575C31595E325D6234626735656B35676D35686E366C723870773871783A767E39747B4742444944424A4644434941454B434C48464742484A454C524E4C4B534B4E574E55514F4E49514D4750534D57504B54554F595855525B5755515A51525C525E5B595A555A635F5D605D5B55605659655B5C695F5B685D57625865615F5B56615F5966645E6C635D6A5F6D616663616B67656865636F6C6A6D6A68646869706D6B726E6D62706565746866766A69796D73706E6761706862726C66766F697A716B7C6B7D706C7E717673717A77757875737B78777D7A78817E7C6F8174708376778C7E75897B83807F3C7E873B7C847972857E778C7C768A7F798D767083807A8F837D923D828B3E858E3E848D3F8A943F8892408C96408B96418F9941919B42929D7E95867B90828582808784828886848F8C8B8E8B8A8B8887829A8A859E8E92908E8982998B859D8780979592919896949E9B9AA19F9E86A0908BA5958FAA9990AC9B92AE9D93B09FA3A19F8F88A1918AA4938CA69992AD9690AA9D96B2A39CBAA49DBB95B3A196B3A19CBCA999B8A6AAA8A7ABAAA8AFADACA8A6A5B1AFAEB6B4B3B5B3B2BFBDBCBCBBBAB9B7B6C0BEBDA0C0ADA5C7B3A3C4B1A7CAB6AACEB9AED3BEACD0BCADA6C6AAA3C3B0AACAB3ACCEB5AED0B6B0D2BAB3D6B9B2D5B8B1D3B0D6C0B4DBC5B5DCC6B6DDC7B3D9C3C3C2C1C6C4C4C9C8C7CECDCDCDCCCBD0CFCED2D1D0D6D5D4DDDCDBE0DFDFE3E3E2E6E5E5E8E7E7EAE9E9EDEDECF0EFEFF2F2F2F6F5F5F9F9F9FDFDFDFCFCFCFFFFFFF8F7F72C00000000520032000008FE00FD091C48B0A0417FFFE03993B5C80F9B2F535C786090E0828A1953B2945134CBD93B7C07438A1C4952A43C65886C10A86062C70F21448C2459A2240912224178E438014201809F003A8051352D5FC9A3480DF65B67CA05061E4598741A45B5AAD5AB56372D21D28304829F049E2852D72FA9D990F4567D20214412D6B770E1866AF2230350118BDAF13B7BD6DD9C053C34C51D4C18EBA6222480BAE0A58F6FC9797510F8D854B8B265AA4C7208F8296299E390FB52313841F9B2E9CA9C7A000553EF33C17959040C11759AB0A850B59768E0CCCEB5BF691D1430A93D2A54A4244376E83051024405050100085050210389133A821861B28936D64F3C7EFE4E70F7595A82034D4C6B3AC28384800D55DC001A342913AC5FBF7CC1B234E84F1B2D388C3000500790E00312A55505C44F1EB47656340604908465920491C1066D4CF2CB36E174E8E187207EE80D3094BC51C5064055A003129F5025C44F639C45CF0500E85058274460900220C08C13E28F40FE288E30835051C04F08E490442826FCA48E59634827585C9AECA00017C204A9E5962176138B160302A0C00E9BCD91D43B3FF51057273F2040C6305CC6296787C4C011C14F9B5D50D65187FC64045C4634B0429673161AA7378224001434483DF1935B5781A203006D7863E8A5711243C54F092873D4043F81725524180C8009A6A872294E254702C04C49FF770290E028924000C024A9FE08CE36C300F3CB2B984C228820975012CB7DC27413E42B060040C09323D9F093125545D2000080E44A67267F6891C291065810C20B37D440030A16840914053870010825C2F8D8212CCDAA60944890FCC40355A1240683BC97723349171B8470C51EA420730D39E734ECB0C3E85C830C2EAC34B2060D0B00E5401581F4D28D203FCD32523C0400808027A32C08C02B010F82830567B4A2CDC334D76C73C3E550D3CA1E2F8469C0161400C0024989FCA4C3273EC1204EA1C17861411CB9A073F3D454D35C4D2961480094AB7B85A48FB400E4F0131C7306F332213357ADF6DAE79053CA0B4041E18C48F6380A54259972C10023FED9B0EDF7DAE6E08245985FC413123E5600E50B979430F0C2317F47CE762E2DFCE4806707E523C24F2C07D98D1700A4C1B0E4A4574D4E1FCD02E04A4886FC144890DCAC00001FA5D7AE762E0EFC44CB41CEFC040390DCA400C01AE6D86EFCD4BA3C004001BD15F48F0A3F2D0EE23730001085D4C7675FB32E253FD13541CBFCB482A51FFEF15331DAA74F731A3F4573101E3F71018E87C30C7885FAF8378C8DD6791CB40FFC00D8C2373AF4869FDC227FF95303005C10927E140D0054E0108A00500D04E2CF1100708048F8418BA0450064007840F12C983E5D00600224A9871DB6C60112AAEF160098C151D231859F1860742E3CDE23006088A4400F00B8FEC861F66E0080752405153F3983108D570C00C42829F6B8930120B744D291036EE4310B2F7E42031C56916DE640030050C1177E3C500A7DFBE2DACAC13E3F7CEF2CA7F8C90DD2A6C6A965430C0030C33E7C238B92B5E08075B4D92E50300053FCC3370271470D0180056A04D261D8D003013C300D4412A41FB5A09101D2803E3566A3101218C01CEC614983DC631632F8490B1851C11C1E230E1228401E0C57CA90F0231D746896006EC0875BA4317DC760041127700879D4F228F768C62152B9BC1BEC8115C6A0A3DFCC610D5B10220C210080080E018D431EF32CF3488621B2F001A05C200A68E843231C410A5BE0A218B9B005291E51883DA8410A5A232D800CE4900A76BCF19BAEC9C73B9A910A43CC610C5678820B3AA028077C400653F84219EA600A65BCA3319F0908003B" usageHint="ShapeImage" imageName="Use Cases - shape.gif" base_Image="_ebqZQCuyEeCrDLvPoGZ19A"/>
+</xmi:XMI>

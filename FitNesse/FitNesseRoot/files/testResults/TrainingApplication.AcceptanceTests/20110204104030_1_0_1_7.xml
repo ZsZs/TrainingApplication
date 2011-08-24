@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>AcceptanceTests</rootPath>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.AssignDevices</name>
+    <date>02/04/2011 10:40:30</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.AssignDevices?pageHistory&amp;resultDate=20110204104030</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>8</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateCalls</name>
+    <date>02/04/2011 10:40:31</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateCalls?pageHistory&amp;resultDate=20110204104031</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>11</exceptions>
+    </counts>
+    <runTimeInMillis>7</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateNode</name>
+    <date>02/04/2011 10:40:31</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateNode?pageHistory&amp;resultDate=20110204104031</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.UpdateDeviceStatistic</name>
+    <date>02/04/2011 10:40:31</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.UpdateDeviceStatistic?pageHistory&amp;resultDate=20110204104031</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.UpdateDeviceStatus</name>
+    <date>02/04/2011 10:40:31</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.UpdateDeviceStatus?pageHistory&amp;resultDate=20110204104031</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>5</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.PartyDomain.CreateDestroyPary</name>
+    <date>02/04/2011 10:40:31</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.PartyDomain.CreateDestroyPary?pageHistory&amp;resultDate=20110204104031</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCatalog.SuiteSetUp</name>
+    <date>02/04/2011 10:40:31</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCatalog.SuiteSetUp?pageHistory&amp;resultDate=20110204104031</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>10</exceptions>
+    </counts>
+    <runTimeInMillis>1</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCatalog.CreateNewCatalogs</name>
+    <date>02/04/2011 10:40:31</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCatalog.CreateNewCatalogs?pageHistory&amp;resultDate=20110204104031</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>18</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCatalog.CreateNewCatalogs.SetUp</name>
+    <date>02/04/2011 10:40:31</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCatalog.CreateNewCatalogs.SetUp?pageHistory&amp;resultDate=20110204104031</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>10</exceptions>
+    </counts>
+    <runTimeInMillis>1</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>7</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>3240</totalRunTimeInMillis>
+
+</suiteResults>
+

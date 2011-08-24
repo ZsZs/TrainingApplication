@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="AcceptanceTests"/>
+	<classpathentry kind="src" path="IntegratedTests"/>
+	<classpathentry kind="src" path="ObjectTests"/>
+	<classpathentry kind="src" path="Source"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/ProcessPuzzle-Development-Dependencies"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/ProcessPuzzle-Development-Distribution"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/ProcessPuzzle-Production-Dependencies"/>
+	<classpathentry kind="output" path="Binaries"/>
+</classpath>

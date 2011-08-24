@@ -1,0 +1,68 @@
+!1 Training Application
+This is the sub site of !-TrainingApplicaiton-!, which serves as central point of it's development. It collects project management informations, but - probably - more importantly automated tests against the application. Please go ahead with the links below, according to you interest:
+
+ * '''[[Product Backlog][>ProductBacklog]]''' - used to manage - define, estimate and prioritize - product owner's needs
+ * '''[[Sprint Backlogs][>SpringBacklogs]]''' - used to manage - define, estimate and prioritize - developer's tasks
+ * '''[[Documentation and Acceptance Tests][>AcceptanceTests]]''' - application documentation and acceptance tests defined by the product owner
+
+!***> Project specific variables
+!define ViewPath {d:\ClearCaseViews\cruisecontrol_view}
+!define ThirdPartyPath {D:\GitRepositories}
+!define CAHOOT_DOMAIN_TIER_DIR {AgileRenovation\Projects\Cahoot\Implementation\DomainTier}
+!define CAHOOT_WEB_TIER_DIR {AgileRenovation\Projects\Cahoot\Implementation\WebTier}
+!define COMMONS_DISTRIBUTION_DIR {ProcessPuzzleCommons\Deployment\Distribution\Commons}
+!define LITEST_DISTRIBUTION_DIR {ProcessPuzzleCommons\Deployment\Distribution\LiTest}
+!define PROCESSPUZZLE_DISTRIBUTION_DIR {ProcessPuzzleCommons\Deployment\Distribution\ProcessPuzzle}
+!define PRODUCTION_LIBRARIES_DIR {ProcessPuzzleCommons\Deployment\ProductionLibraries}
+!define DEVELOPMENT_LIBRARIES_DIR {ProcessPuzzleCommons\Deployment\DevelopmentLibraries}
+!define ApplicationConfigurationDescriptor {classpath:com/processpuzzle/sharedfixtures/domaintier/configuration_descriptor.xml}
+!define DatabaseType {HSQLDB}
+!define DatabaseConnection {mem:ENYV_TEST_DB}
+!define DatabaseUser {sa}
+!define DatabasePassword {}
+***!
+
+!***> Project specific test runner
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+***!
+
+!***> Project specific Class Path
+'''!-Cahoot-!''' compiled classes
+!path ${ViewPath}\${CAHOOT_DOMAIN_TIER_DIR}\${CompiledClasses}
+!path ${ViewPath}\${CAHOOT_WEB_TIER_DIR}\${CompiledClasses}
+
+'''!-ProcessPuzzle-!''' framework libraries
+!path ${ThirdPartyPath}\${COMMONS_DISTRIBUTION_DIR}\ProcessPuzzleCommons-DomainLogic-0.1.0.jar
+!path ${ThirdPartyPath}\${LITEST_DISTRIBUTION_DIR}\LiTest-DomainLogic-0.3.0.jar
+!path ${ThirdPartyPath}\${PROCESSPUZZLE_DISTRIBUTION_DIR}\ProcessPuzzle-DomainTier-1.0.0.jar
+
+'''Third party libraries for !-ProcessPuzzle-! domain tier:'''
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Apache Commons\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Castor\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\DOM4J\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\FOP\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Google-Collect\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Hamcrest\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Hibernate\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\JAXB-RI\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Jaxen\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\JiBX\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\jTDS\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Log4J\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\SLF4J\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Spring\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Xerces\*.jar
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Xalan\*.jar
+
+'''HSQL JDBC dirver'''
+!path ${ThirdPartyPath}\${DEVELOPMENT_LIBRARIES_DIR}\HSQL\*.jar
+
+'''Oracle Thin JDBC dirver'''
+!path ${ThirdPartyPath}\${PRODUCTION_LIBRARIES_DIR}\Oracle-JDBC\ojdbc14.jar
+
+'''!-HtmlUnit-! for testing Browser UI'''
+!path ${ThirdPartyPath}\${DEVELOPMENT_LIBRARIES_DIR}\HtmlUnit\*.jar
+
+'''tools.jar needed for Java Compiler API'''
+!path ${JavaHome}\lib\tools.jar
+***!

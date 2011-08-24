@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>CreateDestroyPary</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>10</runTimeInMillis>
+    <content><![CDATA[<br/><div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('3');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img3"/>
+	</a>
+&nbsp;
+	<span class="meta">Included page: <a href="TrainingApplication.AcceptanceTests.DomainLayer.PartyDomain.CreateDestroyPary.SetUp">.TrainingApplication.AcceptanceTests.DomainLayer.PartyDomain.CreateDestroyPary.SetUp</a> <a href="TrainingApplication.AcceptanceTests.DomainLayer.PartyDomain.CreateDestroyPary.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="3">Set up comes here.<br/><br/><br/></div>
+</div>
+<br/><h2>Creating and Destroying a Party - Documentation and Tests</h2>
+<br/><br/><table border="1" cellspacing="0">
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>org.training.fitnesse.domain.party</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="2" class="error">CreateNewParty<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type getCreateNewParty() { }</li><li>public Type createNewParty() { }</li></ul></span></td>
+	</tr>
+	<tr>
+		<td class="error"><b>name</b><hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type name(Type1 arg1) { }</li></ul></span></td>
+		<td><b>type</b></td>
+	</tr>
+	<tr>
+		<td class="error">Bárczy Benõ<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type buE1rczyBenu151(Type1 arg1) { }</li></ul></span></td>
+		<td>person</td>
+	</tr>
+	<tr>
+		<td class="error">Sony Ericsson<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type sonyEricsson(Type1 arg1) { }</li></ul></span></td>
+		<td>organization</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+	<tr>
+		<td class="error">DeleteParty<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type getDeleteParty() { }</li><li>public Type deleteParty() { }</li></ul></span></td>
+	</tr>
+	<tr>
+		<td class="error"><b>name</b><hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type getName() { }</li><li>public Type name() { }</li></ul></span></td>
+	</tr>
+	<tr>
+		<td class="error">Bárczy Benõ<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type getBuE1rczyBenu151() { }</li><li>public Type buE1rczyBenu151() { }</li></ul></span></td>
+	</tr>
+	<tr>
+		<td class="error">Sony Ericsson<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type getSonyEricsson() { }</li><li>public Type sonyEricsson() { }</li></ul></span></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>CreateDestroyPary</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

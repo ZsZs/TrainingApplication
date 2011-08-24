@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Training Application - Build" basedir=".." default="call-webtier-build">
+
+	<property name="application.root" location="../" />
+	<property name="application.build.dir" value="Build" />
+	<property file="${application.build.dir}/local.build.properties" />
+	<property file="${application.build.dir}/application.properties" />
+
+	<property name="view.root.path" location="../../../" />
+	<property name="thirdparty.root.path" location="../../../../GitRepositories" />
+	<property name="common.environment.path" value="${thirdparty.root.path}/ProcessPuzzleCommons" />
+	<property name="common.build.path" value="${thirdparty.root.path}/ProcessPuzzleCommons/Deployment/BuildSnippets" />
+	<property name="thirdparty.distribution.base.path" value="${common.environment.path}/Deployment/Distribution" />
+	<property name="distribution.base.path" value="${application.root}/Deployment/Distribution" />
+	
+	<property file="${common.build.path}/common.build.properties" />
+	
+	<target name="call-domaintier-build">
+		<ant dir="${project.domaintier.root}" antfile="${project.build.file}" inheritall="false">
+			<property name="project.root" location="${project.domaintier.root}" />
+			<property name="view.root.path" location="${view.root.path}" />
+			<property name="thirdparty.root.path" location="${thirdparty.root.path}" />
+			<property name="thirdparty.distribution.base.path" location="${thirdparty.distribution.base.path}" />
+			<property name="distribution.base.path" location="${distribution.base.path}" />
+			<property file="${application.build.dir}/local.build.properties" />
+			<property file="${application.build.dir}/application.properties" />
+		</ant>
+	</target>
+	
+	<target name="call-webtier-build" depends="call-domaintier-build">
+		<ant dir="${project.webtier.root}" antfile="${project.build.file}" inheritall="false">
+			<property name="project.root" location="${project.webtier.root}" />
+			<property name="thirdparty.root.path" location="${thirdparty.root.path}" />
+			<property name="thirdparty.distribution.base.path" location="${thirdparty.distribution.base.path}" />
+			<property name="view.root.path" location="${view.root.path}" />
+			<property name="distribution.base.path" location="${distribution.base.path}" />
+			<property file="${application.build.dir}/local.build.properties" />
+			<property file="${application.build.dir}/application.properties" />
+		</ant>
+	</target>
+	
+</project>

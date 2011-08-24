@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>AssignDevices</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>285</runTimeInMillis>
+    <content><![CDATA[<h2>Assign Devices to Nodex</h2>
+<br/><br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="4" class="error">assign devices to node<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type getAssignDevicesToNode() { }</li><li>public Type assignDevicesToNode() { }</li></ul></span></td>
+	</tr>
+	<tr>
+		<td class="error"><b>node serial number</b><hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type nodeSerialNumberGeneratedIdQuestion(Type1 arg1, Type2 arg2) { }</li><li>public Type nodeSerialNumber(Type p1, Type p2, Type p3) {}</li></ul></span></td>
+		<td><b>type of device</b></td>
+		<td><b>generated id?</b></td>
+		<td><b>default status()</b></td>
+	</tr>
+	<tr>
+		<td class="error">CXC1462<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC14620(Type1 arg1, Type2 arg2) { }</li><li>public Type cXC1462(Type p1, Type p2, Type p3) {}</li></ul></span></td>
+		<td>Termination</td>
+		<td>0</td>
+		<td>ok</td>
+	</tr>
+	<tr>
+		<td class="error">CXC1462<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC14621(Type1 arg1, Type2 arg2) { }</li><li>public Type cXC1462(Type p1, Type p2, Type p3) {}</li></ul></span></td>
+		<td>Media Device</td>
+		<td>1</td>
+		<td>ok</td>
+	</tr>
+	<tr>
+		<td class="error">CXC1462<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC14622(Type1 arg1, Type2 arg2) { }</li><li>public Type cXC1462(Type p1, Type p2, Type p3) {}</li></ul></span></td>
+		<td>Termination</td>
+		<td>2</td>
+		<td>ok</td>
+	</tr>
+	<tr>
+		<td class="error">CXC1462<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC14623(Type1 arg1, Type2 arg2) { }</li><li>public Type cXC1462(Type p1, Type p2, Type p3) {}</li></ul></span></td>
+		<td>Media Device</td>
+		<td>3</td>
+		<td>ok</td>
+	</tr>
+	<tr>
+		<td class="error">CXC243<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC2430(Type1 arg1, Type2 arg2) { }</li><li>public Type cXC243(Type p1, Type p2, Type p3) {}</li></ul></span></td>
+		<td>Termination</td>
+		<td>0</td>
+		<td>ok</td>
+	</tr>
+	<tr>
+		<td class="error">CXC243<hr/> <span class="fit_label">Missing class or Missing method. Possibly:<ul><li>public Type cXC2431(Type1 arg1, Type2 arg2) { }</li><li>public Type cXC243(Type p1, Type p2, Type p3) {}</li></ul></span></td>
+		<td>Termination</td>
+		<td>1</td>
+		<td>ok</td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>AssignDevices</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

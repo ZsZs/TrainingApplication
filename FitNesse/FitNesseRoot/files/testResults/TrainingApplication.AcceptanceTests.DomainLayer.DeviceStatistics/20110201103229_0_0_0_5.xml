@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>DeviceStatistics</rootPath>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.AssignDevices</name>
+    <date>02/01/2011 10:32:29</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.AssignDevices?pageHistory&amp;resultDate=20110201103229</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>5</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateCalls</name>
+    <date>02/01/2011 10:32:29</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateCalls?pageHistory&amp;resultDate=20110201103229</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>11</exceptions>
+    </counts>
+    <runTimeInMillis>3</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateNode</name>
+    <date>02/01/2011 10:32:29</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.CreateNode?pageHistory&amp;resultDate=20110201103229</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>4</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.UpdateDeviceStatistic</name>
+    <date>02/01/2011 10:32:29</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.UpdateDeviceStatistic?pageHistory&amp;resultDate=20110201103229</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>1</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.UpdateDeviceStatus</name>
+    <date>02/01/2011 10:32:29</date>
+    <pageHistoryLink>TrainingApplication.AcceptanceTests.DomainLayer.DeviceStatistics.UpdateDeviceStatus?pageHistory&amp;resultDate=20110201103229</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>1</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>5</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1199</totalRunTimeInMillis>
+
+</suiteResults>
+

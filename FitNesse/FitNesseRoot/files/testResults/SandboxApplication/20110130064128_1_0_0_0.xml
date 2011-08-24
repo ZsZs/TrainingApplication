@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>SandboxApplication</rootPath>
+    <pageHistoryReference>
+    <name>SandboxApplication.TestSuiteOne</name>
+    <date>01/30/2011 06:41:28</date>
+    <pageHistoryLink>SandboxApplication.TestSuiteOne?pageHistory&amp;resultDate=20110130064128</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>23</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>393</totalRunTimeInMillis>
+
+</suiteResults>
+

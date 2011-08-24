@@ -1,0 +1,6 @@
+
+domainlogic.build.dir = ../Implementation/DomainLogic/build
+domainlogic.libraries = ../Implementation/DomainLogic/Libraries
+
+frameworkdomaintier.build.dir = ../../../../ProcessPuzzle/Framework/FrameworkDomainTier/build
+

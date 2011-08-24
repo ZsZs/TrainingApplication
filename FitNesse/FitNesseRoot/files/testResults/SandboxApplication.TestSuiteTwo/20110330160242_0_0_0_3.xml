@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20110104</FitNesseVersion>
+  <rootPath>TestSuiteTwo</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <runTimeInMillis>16</runTimeInMillis>
+    <content><![CDATA[<table border="1" cellspacing="0">
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>com.ish.tmc.fitnesse.diseasetype</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+	<tr>
+		<td colspan="3">CreateNewDiseaseType</td>
+	</tr>
+	<tr>
+		<td>name</td>
+		<td>description</td>
+		<td>success?</td>
+	</tr>
+	<tr>
+		<td>Coronary heart disease</td>
+		<td> <span class="fit_grey">null</span></td>
+		<td class="error">yes<hr><pre><div class="fit_stacktrace">java.lang.NoClassDefFoundError: hu/itkodex/commons/persistence/AggregateRoot
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(Unknown Source)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.net.URLClassLoader.access$000(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.ish.tmc.fitnesse.diseasetype.CreateNewDiseaseType.instantiateDiseaseType(CreateNewDiseaseType.java:16)
+	at com.ish.tmc.fitnesse.diseasetype.CreateNewDiseaseType.success(CreateNewDiseaseType.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:108)
+	at fit.TypeAdapter.get(TypeAdapter.java:96)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:371)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:357)
+	at fit.Fixture.compareCellToResult(Fixture.java:299)
+	at fit.Fixture.check(Fixture.java:295)
+	at fit.ColumnFixture.check(ColumnFixture.java:51)
+	at fit.Binding$QueryBinding.doCell(Binding.java:188)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:171)
+	at fit.Fixture.doRow(Fixture.java:165)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:159)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:153)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:105)
+	at fit.Fixture.doTables(Fixture.java:79)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+Caused by: java.lang.ClassNotFoundException: hu.itkodex.commons.persistence.AggregateRoot
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 39 more
+</div></pre></td>
+	</tr>
+	<tr>
+		<td>Hypertension</td>
+		<td> <span class="fit_grey">null</span></td>
+		<td class="error">yes<hr><pre><div class="fit_stacktrace">java.lang.NoClassDefFoundError: com/ish/tmc/diseasetype/domain/DiseaseType
+	at com.ish.tmc.fitnesse.diseasetype.CreateNewDiseaseType.instantiateDiseaseType(CreateNewDiseaseType.java:16)
+	at com.ish.tmc.fitnesse.diseasetype.CreateNewDiseaseType.success(CreateNewDiseaseType.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:108)
+	at fit.TypeAdapter.get(TypeAdapter.java:96)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:371)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:357)
+	at fit.Fixture.compareCellToResult(Fixture.java:299)
+	at fit.Fixture.check(Fixture.java:295)
+	at fit.ColumnFixture.check(ColumnFixture.java:51)
+	at fit.Binding$QueryBinding.doCell(Binding.java:188)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:171)
+	at fit.Fixture.doRow(Fixture.java:165)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:159)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:153)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:105)
+	at fit.Fixture.doTables(Fixture.java:79)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+</div></pre></td>
+	</tr>
+	<tr>
+		<td>Cardiomyopathy</td>
+		<td> <span class="fit_grey">null</span></td>
+		<td class="error">yes<hr><pre><div class="fit_stacktrace">java.lang.NoClassDefFoundError: com/ish/tmc/diseasetype/domain/DiseaseType
+	at com.ish.tmc.fitnesse.diseasetype.CreateNewDiseaseType.instantiateDiseaseType(CreateNewDiseaseType.java:16)
+	at com.ish.tmc.fitnesse.diseasetype.CreateNewDiseaseType.success(CreateNewDiseaseType.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fit.TypeAdapter.invoke(TypeAdapter.java:108)
+	at fit.TypeAdapter.get(TypeAdapter.java:96)
+	at fit.Fixture$CellComparator.compareCellToResult(Fixture.java:371)
+	at fit.Fixture$CellComparator.access$100(Fixture.java:357)
+	at fit.Fixture.compareCellToResult(Fixture.java:299)
+	at fit.Fixture.check(Fixture.java:295)
+	at fit.ColumnFixture.check(ColumnFixture.java:51)
+	at fit.Binding$QueryBinding.doCell(Binding.java:188)
+	at fit.ColumnFixture.doCell(ColumnFixture.java:37)
+	at fit.Fixture.doCells(Fixture.java:171)
+	at fit.Fixture.doRow(Fixture.java:165)
+	at fit.ColumnFixture.doRow(ColumnFixture.java:25)
+	at fit.Fixture.doRows(Fixture.java:159)
+	at fit.ColumnFixture.doRows(ColumnFixture.java:18)
+	at fit.Fixture.doTable(Fixture.java:153)
+	at fit.Fixture.interpretFollowingTables(Fixture.java:119)
+	at fit.Fixture.interpretTables(Fixture.java:105)
+	at fit.Fixture.doTables(Fixture.java:79)
+	at fit.FitServer.process(FitServer.java:81)
+	at fit.FitServer.run(FitServer.java:56)
+	at fit.FitServer.main(FitServer.java:41)
+</div></pre></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>TestSuiteTwo</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

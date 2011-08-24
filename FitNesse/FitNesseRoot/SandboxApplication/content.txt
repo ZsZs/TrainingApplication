@@ -1,0 +1,18 @@
+!2 Sandbox for playing with !-FitNesse-! and glue codes
+
+ * '''[[Test Suite One][>TestSuiteOne]]'''
+ * '''[[Test Suite Two][>TestSuiteTwo]]'''
+
+!***> Project specific variables
+***!
+
+!***> Project specific test runner
+!define TEST_RUNNER {fit.FitServer}
+***!
+
+!***> Projekt specific Class Path settings
+'''Test Application - domain tier compiled classes
+!path ${ViewPath}\ITKodex\Projects\ISH\TMC\Implementation\DomainTier\${CompiledClasses}
+
+'''Third party libraries for !-YourApplication-! domain tier:'''
+***!

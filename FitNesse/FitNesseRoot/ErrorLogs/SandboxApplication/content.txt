@@ -1,0 +1,6 @@
+!3 !-fit-!
+|'''Date: '''|!-11:39:11 DE (CET) on szerda, március 2, 2011-!|
+|'''Test Page: '''|.SandboxApplication|
+|'''Command: '''|!-java -cp fitnesse.jar;c:\zsolt.zsuffa_webview_on_nagyokos\Trainings\TrainingApplication\Implementation\DomainTier\Binaries;c:\zsolt.zsuffa_webview_on_nagyokos\ProcessPuzzle\Framework\build\DevelopmentLibraries\FIT\fitlibrary.jar;c:\zsolt.zsuffa_webview_on_nagyokos\ProcessPuzzle\Framework\build\DevelopmentLibraries\Mockito\mockito-all-1.8.5.jar;c:\zsolt.zsuffa_webview_on_nagyokos\ProcessPuzzle\Framework\build\DevelopmentLibraries\FIT\dbfit-20080822.jar;"c:\Program Files (x86)\Cobertura-1.9.3\cobertura.jar";"c:\Program Files (x86)\Cobertura-1.9.3\lib\asm-3.0.jar";"c:\Program Files (x86)\Cobertura-1.9.3\lib\asm-tree-3.0.jar";"c:\Program Files (x86)\Cobertura-1.9.3\lib\jakarta-oro-2.0.8.jar";"c:\Program Files (x86)\Cobertura-1.9.3\lib\log4j-1.2.9.jar" fit.FitServer Nagyokos 9005 1-!|
+|'''Exit code: '''|!-1-!|
+|'''Time elapsed: '''|!-0.294 seconds-!|

@@ -1,0 +1,13 @@
+[[!img-l http://files/images/Developer.jpg][http://processpuzzle.com]]
+[[!img-r http://files/images/AgileRenovationLogo-small.jpg][http://agilerenovation.com]]
+!1 Welcome to the application documentation & acceptance testing website
+This site uses [[FitNesse][FitNesse.FitNesse]] a fully integrated stand-alone acceptance testing framework and wiki. The site was designed and developed by [[Agile Renovation][http://agilerenovation.com]]. If need more help or learn more about how to use this site go ahead to [[learn more][LearnMore]] page. 
+
+!2 Applications
+Here is a list of applications which are managed, documented and tested by the help if this site:
+ * '''[[Training Application][TrainingApplication]]''' - used for training purposes.
+ * '''[[Sandbox Application][SandboxApplication]]''' - used to play with !-FitNesse-! and glue codes
+
+As each environment - host of fitnesse - has differences [[here][root]] is the place where you can customizes variables, path settings according to your needs. You can check and modify these setting in the [[Global Configuration][root]] page.
+
+!note Release v20110104
