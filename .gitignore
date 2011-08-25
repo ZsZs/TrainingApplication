@@ -21,7 +21,12 @@
 /Implementation/DomainTier/Logs/ProcessPuzzle.log
 /Implementation/WebTier/.settings
 /Implementation/WebTier/Binaries
+/Implementation/WebTier/Build/Binaries
+/Implementation/WebTier/Build/Distribution
+/Implementation/WebTier/Build/Libraries
 /Implementation/WebTier/Build/local.build.properties
+/Implementation/WebTier/Build/Reports
+/Implementation/WebTier/Build/build.num
 /Implementation/WebTier/Logs/ProcessPuzzle.log
 /Implementation/WebTier/WebContent/JavaScript/Libraries
 /Implementation/WebTier/WebContent/JavaScript/Source/JsUnit
