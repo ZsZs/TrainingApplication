@@ -6,8 +6,8 @@
 	<property file="${application.build.dir}/local.build.properties" />
 	<property file="${application.build.dir}/application.properties" />
 
-	<property name="view.root.path" location="../../../" />
-	<property name="thirdparty.root.path" location="../../../../GitRepositories" />
+	<property name="view.root.path" location="../../" />
+	<property name="thirdparty.root.path" location="../../" />
 	<property name="common.environment.path" value="${thirdparty.root.path}/ProcessPuzzleCommons" />
 	<property name="common.build.path" value="${thirdparty.root.path}/ProcessPuzzleCommons/Deployment/BuildSnippets" />
 	<property name="thirdparty.distribution.base.path" value="${common.environment.path}/Deployment/Distribution" />
