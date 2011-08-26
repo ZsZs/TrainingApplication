@@ -1,17 +1,18 @@
 <cruisecontrol>
-   <property name="VIEW_PATH" value="c:\Repositories" />
-   <property name="CCL_HOME" value="c:\CruiseControl" />
-   <property name="ANT_HOME" value="c:\apache-ant-1.8.2" />
-   <property name="ANT_TASK_HOME" value="${VIEW_PATH}\ProcessPuzzle\Environment\ANT" />
-   <property name="BUILD_PUZZLE_HOME" value="${VIEW_PATH}\BuildPuzzle" />
-   <property name="LITEST_HOME" value="${VIEW_PATH}\LiTest" />
-   <property name="PP_COMMONS_HOME" value="${VIEW_PATH}\ProcessPuzzleCommons" />
-   <property name="PP_FRAMEWORK_HOME" value="${VIEW_PATH}\ProcessPuzzleFramework" />
-   <property name="PP_UI_HOME" value="${VIEW_PATH}\ProcessPuzzleUI" />
+   <property name="VIEW_PATH" value="c:\DevEnv\GitRepositories" />
+   <property name="GIT_PATH" value="c:\DevEnv\GitRepositories" />
+   <property name="CCL_HOME" value="c:\DevEnv\CruiseControl" />
+   <property name="ANT_HOME" value="c:\DevEnv\apache-ant-1.8.2" />
+   <property name="ANT_TASK_HOME" value="${GIT_PATH}\ProcessPuzzleCommons\Environment\ANT\AntTasks" />
+   <property name="BUILD_PUZZLE_HOME" value="${GIT_PATH}\BuildPuzzle" />
+   <property name="LITEST_HOME" value="${GIT_PATH}\LiTest" />
+   <property name="PP_COMMONS_HOME" value="${GIT_PATH}\ProcessPuzzleCommons" />
+   <property name="PP_FRAMEWORK_HOME" value="${GIT_PATH}\ProcessPuzzleFramework" />
+   <property name="PP_UI_HOME" value="${GIT_PATH}\ProcessPuzzleUI" />
 
    <property name ="view.root.path" value="${VIEW_PATH}" />
    
-   <property file="${VIEW_PATH}\ProcessPuzzle\Environment\ANT\Scripts\common.build.properties" />
+   <property file="${GIT_PATH}\ProcessPuzzleCommons\Deployment\BuildSnippets\common.build.properties" />
    
    <plugin name="htmlemail" 
       mailhost="smtp.gmail.com"
@@ -29,19 +30,23 @@
       <map alias="peter.krima" address="peter.krima@itkodex.hu" />
    </plugin>
    
+   <property name="project.base.path" value="" />
+   
    <plugin name="project">
-      <property name="Project_Root_Directory" value="${VIEW_PATH}/${project.name}/Implementation" />
+      <property name="Project_Root_Directory" value="${VIEW_PATH}/${project.base.path}/${project.name}/Implementation" />
       <property name="Project_Build_Directory" value="${Project_Root_Directory}/Build" />
       
-      <property name="Project_Domain_Build_Directory" value="${Project_Root_Directory}/DomainTier/Build" />
+      <property name="Project_Domain_Root_Directory" value="${Project_Root_Directory}/DomainTier" />
+      <property name="Project_Domain_Build_Directory" value="${Project_Domain_Root_Directory}/Build" />
       <property name="Project_Domain_Distribution_Directory" value="${Project_Domain_Build_Directory}/Distribution" />
       <property name="Project_Domain_Reports_Directory" value="${Project_Domain_Build_Directory}/Reports" />
-      <property name="Project_Domain_FitNesse_Directory" value="${fitnesse.testresults.dir}/${project.name}.DocumentsAndTests.DomainLogic" />
+      <property name="Project_Domain_FitNesse_Directory" value="${fitnesse.testresults.dir}/CaHoot.DocumentsAndTests.DomainLogic" />
       
-      <property name="Project_Web_Build_Directory" value="${Project_Root_Directory}/WebTier/Build" />
+      <property name="Project_Web_Root_Directory" value="${Project_Root_Directory}/WebTier" />
+      <property name="Project_Web_Build_Directory" value="${Project_Web_Root_Directory}/Build" />
       <property name="Project_Web_Distribution_Directory" value="${Project_Web_Build_Directory}/Distribution" />
       <property name="Project_Web_Reports_Directory" value="${Project_Web_Build_Directory}/Reports" />
-      <property name="Project_Web_FitNesse_Directory" value="${fitnesse.testresults.dir}/${project.name}.DocumentsAndTests.UseCases" />
+      <property name="Project_Web_FitNesse_Directory" value="${fitnesse.testresults.dir}/CaHoot.DocumentsAndTests.WebServiceBus" />
 
       <property file="${Project_Domain_Build_Directory}\component.properties"/>
       <property file="${Project_Web_Build_Directory}\component.properties" />
@@ -56,7 +61,9 @@
       </modificationset>
 
       <bootstrappers>
-         <gitbootstrapper localWorkingCopy="${Project_Root_Directory}" />
+         <gitbootstrapper localWorkingCopy="${BUILD_PUZZLE_HOME}" />
+         <gitbootstrapper localWorkingCopy="${PP_COMMONS_HOME}" />
+         <gitbootstrapper localWorkingCopy="${LITEST_HOME}" />
       </bootstrappers>
 
       <schedule interval="7200">
@@ -64,15 +71,25 @@
       </schedule>
 
       <log dir="logs/${project.name}">
+         <merge file="${Project_PDA_Reports_Directory}/JUnit/xml/TESTS-TestSuites.xml" />
+         <merge file="${Project_PDA_Reports_Directory}/JsUnit/xml/TESTS-TestSuites.xml" />
+         <merge file="${Project_PDA_Root_Directory}/TEST-net.jsunit.StandaloneTest.xml" />
+         <merge dir="${Project_PDA_Reports_Directory}/Cobertura/reports"/>
+         <merge dir="${Project_PDA_Reports_Directory}" pattern="*-pmd.xml"/>
+         <merge dir="${Project_PDA_Reports_Directory}" pattern="*-fb.xml"/>
+         <merge dir="${Project_PDA_Reports_Directory}" pattern="*-pmd.html"/>
+         <merge dir="${Project_PDA_Reports_Directory}" pattern="*-fb.html"/>
+         
          <merge file="${Project_Web_Reports_Directory}/JUnit/xml/TESTS-TestSuites.xml" />
          <merge file="${Project_Web_Reports_Directory}/JsUnit/xml/TESTS-TestSuites.xml" />
+         <merge file="${Project_PDA_Root_Directory}/TEST-net.jsunit.StandaloneTest.xml" />
          <merge dir="${Project_Web_Reports_Directory}/Cobertura/reports"/>
          <merge dir="${Project_Web_Reports_Directory}" pattern="*-pmd.xml"/>
          <merge dir="${Project_Web_Reports_Directory}" pattern="*-fb.xml"/>
          <merge dir="${Project_Web_Reports_Directory}" pattern="*-pmd.html"/>
          <merge dir="${Project_Web_Reports_Directory}" pattern="*-fb.html"/>
+         
          <merge file="${Project_Domain_Reports_Directory}/JUnit/xml/TESTS-TestSuites.xml" />
-         <merge file="${Project_Domain_Reports_Directory}/JsUnit/xml/TESTS-TestSuites.xml" />
          <merge dir="${Project_Domain_Reports_Directory}/Cobertura/reports"/>
          <merge dir="${Project_Domain_Reports_Directory}" pattern="*-pmd.xml"/>
          <merge dir="${Project_Domain_Reports_Directory}" pattern="*-fb.xml"/>
@@ -90,6 +107,10 @@
          <artifactspublisher dir="${Project_Web_Reports_Directory}/JsUnit/html" dest="artifacts/${project.name}" subdirectory="JsUnit/WebTier" />
          <artifactspublisher dir="${Project_Web_FitNesse_Directory}" dest="artifacts/${project.name}" subdirectory="FitNesse/WebTier"/>
             
+         <artifactspublisher dir="${Project_PDA_Reports_Directory}/JUnit/html" dest="artifacts/${project.name}" subdirectory="JUnit/PDA" />
+         <artifactspublisher dir="${Project_PDA_Reports_Directory}/JsUnit/html" dest="artifacts/${project.name}" subdirectory="JsUnit/PDA" />
+         <artifactspublisher dir="${Project_PDA_FitNesse_Directory}" dest="artifacts/${project.name}" subdirectory="FitNesse/PDA"/>
+            
          <onsuccess>
             <artifactspublisher dir="${Project_Domain_Distribution_Directory}" dest="artifacts/${project.name}" subdirectory="Distribution" />
             <artifactspublisher dir="${Project_Domain_Reports_Directory}/Cobertura/reports/cobertura-html" dest="artifacts/${project.name}" subdirectory="Cobertura/DomainTier" />
@@ -100,10 +121,16 @@
             <artifactspublisher dir="${Project_Web_Reports_Directory}/Cobertura/reports/cobertura-html" dest="artifacts/${project.name}" subdirectory="Cobertura/WebTier" />
             <artifactspublisher dir="${Project_Web_Reports_Directory}/PMD" dest="artifacts/${project.name}" subdirectory="PMD/WebTier" />
             <artifactspublisher dir="${Project_Web_Reports_Directory}/FindBugs" dest="artifacts/${project.name}" subdirectory="FindBugs/WebTier" />
+            
+            <artifactspublisher dir="${Project_PDA_Distribution_Directory}" dest="artifacts/${project.name}" subdirectory="Distribution" />
+            <artifactspublisher dir="${Project_PDA_Reports_Directory}/Cobertura/reports/cobertura-html" dest="artifacts/${project.name}" subdirectory="Cobertura/PDA" />
+            <artifactspublisher dir="${Project_PDA_Reports_Directory}/PMD" dest="artifacts/${project.name}" subdirectory="PMD/PDA" />
+            <artifactspublisher dir="${Project_PDA_Reports_Directory}/FindBugs" dest="artifacts/${project.name}" subdirectory="FindBugs/PDA" />
          </onsuccess>
             
          <onfailure>
             <htmlemail>
+               <map alias="zsolt.zsuffa" address="zsolt.zsuffa@gmail.com" />
                <map alias="peter.krima" address="peter.krima@itkodex.hu" />
             </htmlemail>
          </onfailure>
