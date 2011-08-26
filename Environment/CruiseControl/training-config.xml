@@ -13,7 +13,11 @@
    <property name ="view.root.path" value="${VIEW_PATH}" />
    
    <property file="${GIT_PATH}\ProcessPuzzleCommons\Deployment\BuildSnippets\common.build.properties" />
-   
+
+   <plugin name="clearcaseviewstrapper"   classname="net.sourceforge.cruisecontrol.bootstrappers.ClearCaseViewstrapper"/> 
+   <plugin name="git" classname="net.sourceforge.cruisecontrol.sourcecontrols.Git"/> 
+   <plugin name="gitbootstrapper"   classname="net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper"/>
+
    <plugin name="htmlemail" 
       mailhost="smtp.gmail.com"
       username="processpuzzle@gmail.com"
@@ -56,8 +60,8 @@
       </listeners>
 
       <modificationset>
-         <filesystem folder="${Project_Root_Directory}/DomainTier/"/>
-         <filesystem folder="${Project_Root_Directory}/WebTier/"/>
+         <git localWorkingCopy="${Project_Root_Directory}/DomainTier/"/>
+         <git localWorkingCopy="${Project_Root_Directory}/WebTier/"/>
       </modificationset>
 
       <bootstrappers>
