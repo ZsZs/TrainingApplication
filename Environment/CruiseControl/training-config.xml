@@ -56,8 +56,8 @@
       </listeners>
 
       <modificationset>
-         <filesystem folder="${Project_Root_Directory}/Implementation/DomainTier/"/>
-         <filesystem folder="${Project_Root_Directory}/Implementation/WebTier/"/>
+         <filesystem folder="${Project_Root_Directory}/DomainTier/"/>
+         <filesystem folder="${Project_Root_Directory}/WebTier/"/>
       </modificationset>
 
       <bootstrappers>
