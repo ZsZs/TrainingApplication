@@ -1,0 +1,33 @@
+!1 Training Application - Documentation and Acceptance Tests
+A complex systems such as !-TrainingApplication-! can be specified, documented and tested from many different viewpoints. The Business Model of !-TrainingApplication-! as depicted in the diagram below defines the requirements in a strongly logical level. It's inherent property to decouple the requirements specification technique from the implementation technique. On the other hand the Design Model's main purpose is to specify how the requirement - defined in the Business Model - are implemented in a specific architecture. There is a relationship between the Business and Design Model but while the Business Model hides this relationship the Design Model makes explicit how the logically formed requirements are implemented in the given architecture.
+According to this duality in specification's purpose, viewpoints, and abstraction !-TrainingApplication-! is specified, documented and tested in correspondence with the
+!3 Business Model
+!***> Business Model - Overview
+!img http://localhost:9005/files/TrainingApplication/Images/BusinessModelOverview_BusinessModelOverview.gif
+***!
+ * '''Business terms and rules''' are specified and tested in the context of [[Domain Model][^DomainLayer]]
+ * '''The consistent sets of datas used in workflows, especially in activities''' are specified and tested as [[Work Products][>WorkProducts]]
+ * '''The consistent sets of activities performed by humans playing a role''' are specified and tested as [[Roles][^RolesPackage]]
+ * '''The complex series of business activities''' are specified and tested as [[Workflows][^WorkflowsPackage]]
+ * '''The system's usability''' is specified and tested in the context of [[Use Cases][^UseCases]]
+
+!3 Design Model
+As the diagram below depicts, '''!-TrainingApplication-!''' has a complex component based, Service Oriented Architecture reflecting the very different concerns to which the system should comply.
+!***> Component Dependencies
+!img http://localhost:9005/files/TrainingApplication/Images/DesignModel_DesignModelOverview.gif
+***!
+ * '''The Browser elements''' - mainly !-JavaScript-! widgets - are specified and tested in the [[!-TrainingApplication-! Browser Interface][^BrowserInterface]] component.
+ * '''The web services''' - which provide access to the back-end application's data and logic are specified and tested in the '''[[Web Service BUS][>WebServiceBus]]''' component.
+
+According to the [[Domain Driven Desing][http://domaindrivendesign.org/]] and [[Business Model Driven Development][http://bmdd.hu]] principles the [[Domain layer][^DomainLayer]] implements the problem domain specific knowledge, in [[Workproduct layer][>WorkProducts]] manifest data sets used by human activities. Technological issues, such as persistency or user interface are taken away from domain layer to the integration, control and presentation layers. Corresponding to this design rules different kind of specifications and test are written againts the different layers:
+ * '''[[Presentation Layer][>UseCases]]'''
+ * '''[[Work Product Layer][>WorkProducts]]'''
+ * '''[[Domain Layer][^DomainLayer]]'''
+ * '''[[Integration Layer][>IntegrationLayer]]'''
+!3 [[Performance Tests][>PerformanceTests]]
+While functional requirements are key, almost always any kind of application should also fulfill certain performance requirements too. Most of the time none functional requirements can be specified in the context of a one ore more functional requirements like [[Use Cases][>UseCases]] or [[Workflows][^WorkflowsPackage]], therefore the referred tests below will reference these items. The application's performance criteria can be categorized as follows:
+ * '''[[Load Tests][>PerformanceTests.LoadTests]]'''
+
+!3 Common Test Fixtures
+To be able to eliminate any kind of redundancy in test cases the recurring elements, parts should extracted turned to reusable test components. Below those test components are listed which can be reused in many of the test above.
+ * '''[[Common Fixtures][>CommonFixtures]]''' constitutes reusable elements in the specifications above.

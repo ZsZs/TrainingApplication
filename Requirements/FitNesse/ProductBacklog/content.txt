@@ -1,0 +1,10 @@
+!3 Product Backlog
+
+|'''Customer Need'''|'''Story Point'''|'''Priority'''|'''Iteration'''|'''Acceptance Tests'''|
+|The system knows about Product|5|M| - |[[Tests][AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCatalog]]|
+|... knows about Product Instance|3|M| - |[[Tests][AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.CatalogEntry]]|
+|... knows about Configurable Product|3|K| - |[[Tests][AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductGroup]]|
+|... know about Configurable Product Instance|2|K| - |[[Tests][AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductGroup]]|
+|... follow the rule of Discount applicability|2|A| - |[[Tests][AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCategory]]|
+|.. follow the rule of Disount uniquness|1|A| - |[[Tests][AcceptanceTests.DomainLayer.ProductDomain.ProductType.ProductCatalog.ProductCategory]]|
+

@@ -1,0 +1,9 @@
+!2 Product Type - Documentation and Tests
+
+To get an overview about the topics covered by Product Type domain take a look at the diagram below.
+!***> Product Type - Overview
+!img files/TrainingApplication/Images/DesignModel_ProductTypeOverview.gif
+***!
+ * '''[[Product Catalog][>ProductCatalog]]''' - Provides a structured description of larger set of Product Types
+ * '''[[Product Type][>ProductType]]''' - 
+ * '''[[Pricing][>PricingDetails]]''' - 

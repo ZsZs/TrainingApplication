@@ -1,0 +1,3 @@
+!2 Party Domain Area - Documentation and Tests
+
+This domain area is supported by [[!-ProcessPuzzle-!][http://processpuzzle.com]], please take a look into the [[documentation][http://opensource.processpuzzle.com/ProcessPuzzleFramework.DocumentsAndTests.DomainLogic]] for more information.

@@ -1,0 +1,11 @@
+!2 Training Application - Domain Logic Documentation and Tests
+
+As depicted in the diagram below, !-TrainingApplication-! knows about and supports the following domain areas:
+
+!***> Domain Areas Overview
+!img http://localhost:9005/files/TrainingApplication/Images/BusinessModelOverview_DomainModelOverview.gif
+***!
+ * '''[[Party][>PartyDomain]]''' - domain area
+ * '''[[Order][>OrderDomain]]''' - domain area
+ * '''[[Product][>ProductDomain]]''' - domain are
+

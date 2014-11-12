@@ -1,0 +1,6 @@
+!2 Product Instance - Documentation and Tests
+
+To get an overview about the topics covered by Product Instance domain take a look at the diagram below.
+!***> Product Type - Overview
+!img files/TrainingApplication/Images/DesignModel_ProductInstanceOverview.gif
+***!
